@@ -1,0 +1,176 @@
+recipe1:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §b Prismarine Sword
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - DIAMOND_BLOCK
+  - NETHERITE_BLOCK
+  - DIAMOND_BLOCK
+  - PRISMARINE_CRYSTALS
+  - NETHER_STAR
+  - PRISMARINE_CRYSTALS
+  permission: null
+  page: -1
+  slot: -1
+  result_slot: 9
+  category: default
+  shapeless: false
+recipe2:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: Negronium2
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - NETHERITE_BLOCK
+  - DIAMOND_BLOCK
+  - NETHERITE_BLOCK
+  - DIAMOND_BLOCK
+  - NETHERITE_BLOCK
+  - DIAMOND_BLOCK
+  - NETHERITE_BLOCK
+  - DIAMOND_BLOCK
+  - NETHERITE_BLOCK
+  permission: null
+  page: -1
+  slot: -1
+  result_slot: 9
+  category: default
+  shapeless: false
+recipe3:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §aLarge Chest §7(Place to active)
+  oncraftcommand: null
+  hidden: true
+  matchtype: MATCH_TYPE
+  recipe:
+  - OAK_LOG
+  - OAK_LOG
+  - OAK_LOG
+  - OAK_LOG
+  - null
+  - OAK_LOG
+  - OAK_LOG
+  - OAK_LOG
+  - OAK_LOG
+  permission: null
+  page: -1
+  slot: -1
+  result_slot: 9
+  category: default
+  shapeless: false
+recipe4:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §eChunk Collector §7(Place to active)
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - HOPPER
+  - HOPPER
+  - HOPPER
+  - HOPPER
+  - DIAMOND_BLOCK
+  - HOPPER
+  - HOPPER
+  - HOPPER
+  - HOPPER
+  permission: null
+  page: -1
+  slot: -1
+  result_slot: 9
+  category: default
+  shapeless: false
+recipe5:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §bStorage Unit §7(Place to active)
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - OAK_LOG
+  - IRON_INGOT
+  - OAK_LOG
+  - IRON_INGOT
+  - CHEST
+  - IRON_INGOT
+  - OAK_LOG
+  - IRON_INGOT
+  - OAK_LOG
+  permission: null
+  page: -1
+  slot: -1
+  result_slot: 9
+  category: default
+  shapeless: false
+recipe6:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §6Linked Chest §7(Place to active)
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - STRIPPED_OAK_LOG
+  - OAK_LOG
+  - STRIPPED_OAK_LOG
+  - OAK_LOG
+  - TRIPWIRE_HOOK
+  - OAK_LOG
+  - STRIPPED_OAK_LOG
+  - OAK_LOG
+  - STRIPPED_OAK_LOG
+  permission: null
+  page: -1
+  slot: -1
+  result_slot: 9
+  category: default
+  shapeless: false
+recipe7:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: §cAuto Crafter §7(Place to active)
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - OAK_LOG
+  - DIAMOND
+  - OAK_LOG
+  - DIAMOND
+  - CRAFTING_TABLE
+  - DIAMOND
+  - OAK_LOG
+  - DIAMOND
+  - OAK_LOG
+  permission: null
+  page: -1
+  slot: -1
+  result_slot: 9
+  category: default
+  shapeless: false
+recipe8:
+  ==: com.dutchjelly.craftenhance.crafthandling.recipes.WBRecipe
+  result: Negronium Pickaxe
+  oncraftcommand: null
+  hidden: false
+  matchtype: MATCH_META
+  recipe:
+  - Negronium2
+  - Negronium2
+  - Negronium2
+  - null
+  - STICK
+  - null
+  - null
+  - STICK
+  - null
+  permission: null
+  page: -1
+  slot: -1
+  result_slot: 9
+  category: default
+  shapeless: false
