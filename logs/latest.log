@@ -1,1306 +1,415 @@
-[16:35:13] [ServerMain/INFO]: Building unoptimized datafixer
-[16:35:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:35:16] [ServerMain/INFO]: Loaded 7 recipes
-[16:35:17] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[16:35:17] [Server thread/INFO]: Loading properties
-[16:35:17] [Server thread/INFO]: This server is running Paper version git-Paper-377 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 5aee09d)
-[16:35:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:35:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:35:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[16:35:18] [Server thread/INFO]: Default game type: SURVIVAL
-[16:35:18] [Server thread/INFO]: Generating keypair
-[16:35:18] [Server thread/INFO]: Starting Minecraft server on *:51430
-[16:35:18] [Server thread/INFO]: Using epoll channel type
-[16:35:18] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
-[16:35:18] [Server thread/INFO]: Paper: Using OpenSSL (Linux aarch64) cipher from Velocity.
-[16:35:19] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.58
-[16:35:19] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.13+46576cc
-[16:35:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@71a4598f]
-[16:35:20] [Server thread/INFO]: [WildChests] Loading WildChests v2022.7
-[16:35:20] [Server thread/INFO]: [WildChests] Data version: 3218
-[16:35:20] [Server thread/INFO]: [WildChests] The plugin doesn't support your minecraft version.
-[16:35:20] [Server thread/INFO]: [WildChests] Please try a different version.
-[16:35:20] [Server thread/INFO]: [CraftEnhance] Loading CraftEnhance v2.5.2
-[16:35:20] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b612
-[16:35:21] [Server thread/INFO]: [WildTools] Loading WildTools v2022.7
-[16:35:21] [Server thread/INFO]: [WildTools] Data version: 3218
-[16:35:21] [Server thread/INFO]: [WildTools] &cThe plugin doesn't support your minecraft version.
-[16:35:21] [Server thread/INFO]: [WildTools] &cPlease try a different version.
-[16:35:21] [Server thread/INFO]: [SCore] Loading SCore v3.9.15
-[16:35:21] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v5.9.15
-[16:35:21] [Server thread/INFO]: [PlugManX] Loading PlugManX v2.3.0
-[16:35:21] [Server thread/INFO]: true
-[16:35:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:35:21] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.58
-[16:35:21] [Server thread/INFO]:         __    
-[16:35:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.58
-[16:35:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:35:21] [Server thread/INFO]: 
-[16:35:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:35:21] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:35:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:35:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:35:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1366ms)
-[16:35:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
-[16:35:22] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:35:22] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:35:22] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R2.PaperweightAdapter as the Bukkit adapter
-[16:35:24] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b612
-[16:35:24] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.0
-[16:35:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:35:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:35:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:35:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:35:24] [Server thread/INFO]: Preparing level "world"
-[16:35:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:35:26] [Server thread/INFO]: Time elapsed: 98 ms
-[16:35:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:35:26] [Server thread/INFO]: Time elapsed: 44 ms
-[16:35:26] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:35:26] [Server thread/INFO]: Time elapsed: 35 ms
-[16:35:26] [Server thread/INFO]: [WildChests] Enabling WildChests v2022.7
-[16:35:26] [Server thread/INFO]: [CraftEnhance] Enabling CraftEnhance v2.5.2
-[16:35:26] [Server thread/INFO]: [CraftEnhance] Now starting MenuApi. Any errors will be shown below.
-[16:35:26] [Server thread/WARN]: [CraftEnhance] Is untested on never minecraft versions an 1.18.2
-[16:35:26] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R2' loaded!
-[16:35:26] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
-[16:35:26] [Thread-9/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
-[16:35:26] [Server thread/INFO]: [CraftEnhance] CraftEnhance is managed and developed by DutchJelly.
-[16:35:26] [Server thread/INFO]: [CraftEnhance] If you find a bug in the plugin, please report it to https://github.com/DutchJelly/CraftEnhance/issues.
-[16:35:26] [Server thread/INFO]: [CraftEnhance] Running a version check to check that the server is compatible with game version 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19.
-[16:35:26] [Server thread/INFO]: [CraftEnhance] The correct version is installed.
-[16:35:26] [Server thread/INFO]: [WildTools] Enabling WildTools v2022.7
-[16:35:26] [Server thread/INFO]: [WildTools] Disabling WildTools v2022.7
-[16:35:26] [Server thread/INFO]: [SCore] Enabling SCore v3.9.15
-[16:35:26] [Server thread/INFO]: ================ SCore ================
-[16:35:26] [Server thread/INFO]: SCore Version of the server git-Paper-377 (MC: 1.19.3) !
-[16:35:26] [Server thread/INFO]: SCore ExecutableItems hooked !
-[16:35:26] [Server thread/INFO]: SCore ProtocolLib hooked !
-[16:35:26] [Server thread/INFO]: SCore Locale setup: EN
-[16:35:26] [Server thread/INFO]: SCore Language setup on EN
-[16:35:27] [Server thread/INFO]: SCore onnection to the db...
-[16:35:27] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
-[16:35:27] [Server thread/INFO]: SCore Creating table Commands if not exists...
-[16:35:27] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
-[16:35:27] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
-[16:35:27] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
-[16:35:27] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
-[16:35:27] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
-[16:35:27] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
-[16:35:27] [Server thread/INFO]: ================ SCore ================
-[16:35:27] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v5.9.15
-[16:35:27] [Server thread/INFO]: ================ ExecutableItems ================
-[16:35:27] [Server thread/ERROR]: [ExecutableItems] Invalid world: myWorld in the option disableItemsPerWorld
-[16:35:27] [Server thread/ERROR]: [ExecutableItems] Invalid world: myWorld2 in the option disableItemsPerWorld
-[16:35:29] [Server thread/INFO]: ================ ExecutableItems ================
-[16:35:29] [Server thread/INFO]: Starting GS4 status listener
-[16:35:29] [Server thread/INFO]: Thread Query Listener started
-[16:35:29] [Query Listener #1/INFO]: Query running on 0.0.0.0:51430
-[16:35:29] [Server thread/INFO]: Running delayed init tasks
-[16:35:29] [Server thread/INFO]: Done (12.183s)! For help, type "help"
-[16:35:29] [Server thread/INFO]: Timings Reset
-[16:35:29] [Craft Scheduler Thread - 3 - CraftEnhance/INFO]: [CraftEnhance] There's a new version (2.4.4) of the plugin available on https://www.spigotmc.org/resources/1-9-1-19-custom-recipes-and-crafting-craftenhance.65058/ or https://dev.bukkit.org/projects/craftenhance/files.
-[16:48:43] [User Authenticator #0/INFO]: UUID of player eshark102 is 5e142a30-3733-38ff-861b-ada5151d2395
-[16:48:43] [Server thread/INFO]: eshark102 joined the game
-[16:48:43] [Server thread/INFO]: eshark102[/127.166.178.245:60223] logged in with entity id 129 at ([world]322.5, 71.0, -228.5)
-[16:49:06] [Server thread/INFO]: eshark102 lost connection: Disconnected
-[16:49:06] [Server thread/INFO]: eshark102 left the game
-[16:49:29] [User Authenticator #0/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
-[16:49:29] [Server thread/ERROR]: Tried to load unrecognized recipe: craftenhance:cehreciperecipe37 removed now.
-[16:49:29] [Server thread/ERROR]: Tried to load unrecognized recipe: craftenhance:cehreciperecipe33 removed now.
-[16:49:29] [Server thread/ERROR]: Tried to load unrecognized recipe: craftenhance:cehreciperecipe35 removed now.
-[16:49:29] [Server thread/ERROR]: Tried to load unrecognized recipe: craftenhance:cehreciperecipe27 removed now.
-[16:49:29] [Server thread/ERROR]: Tried to load unrecognized recipe: craftenhance:cehreciperecipe26 removed now.
-[16:49:29] [Server thread/ERROR]: Tried to load unrecognized recipe: craftenhance:cehreciperecipe336 removed now.
-[16:49:29] [Server thread/ERROR]: Tried to load unrecognized recipe: craftenhance:cehreciperecipe11 removed now.
-[16:49:29] [Server thread/ERROR]: Tried to load unrecognized recipe: craftenhance:cehreciperecipe13 removed now.
-[16:49:29] [Server thread/ERROR]: Tried to load unrecognized recipe: craftenhance:cehreciperecipe41 removed now.
-[16:49:29] [Server thread/INFO]: Peparad_Hranolky joined the game
-[16:49:29] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:48771] logged in with entity id 172 at ([world]251.04405619388152, 90.65198958899923, -262.9674492728747)
-[16:49:30] [User Authenticator #0/INFO]: UUID of player chickenwing_520 is b1aa9650-6618-38f4-9004-cc913b84c3de
-[16:49:30] [Server thread/INFO]: chickenwing_520 joined the game
-[16:49:30] [Server thread/INFO]: chickenwing_520[/127.143.172.194:50347] logged in with entity id 217 at ([world]295.6088322412118, 71.0, -228.39794692571527)
-[16:49:35] [Async Chat Thread - #1/INFO]: [Not Secure] <Peparad_Hranolky> hello
-[16:49:38] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[16:49:38] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[16:49:46] [Server thread/INFO]: chickenwing_520 issued server command: /gamemode creative
-[16:49:46] [Server thread/INFO]: [chickenwing_520: Set own game mode to Creative Mode]
-[16:49:47] [Server thread/INFO]: Peparad_Hranolky issued server command: /ceh viewer
-[16:49:56] [Server thread/INFO]: chickenwing_520 issued server command: /gamemode creative
-[16:50:11] [User Authenticator #0/INFO]: UUID of player eshark102 is 5e142a30-3733-38ff-861b-ada5151d2395
-[16:50:11] [Server thread/INFO]: eshark102 joined the game
-[16:50:11] [Server thread/INFO]: eshark102[/127.166.178.245:51239] logged in with entity id 333 at ([world]323.39255384760514, 71.0, -228.13365375174035)
-[16:50:26] [Async Chat Thread - #0/INFO]: [Not Secure] <eshark102> hi
-[16:50:28] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
-[16:50:28] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
-[16:50:39] [Server thread/INFO]: Peparad_Hranolky issued server command: /op chickenwing_520
-[16:50:42] [Server thread/INFO]: Peparad_Hranolky issued server command: /deop chickenwing_520
-[16:50:42] [Server thread/INFO]: [Peparad_Hranolky: Made chickenwing_520 no longer a server operator]
-[16:50:44] [Server thread/INFO]: Peparad_Hranolky issued server command: /op chickenwing_520
-[16:50:44] [Server thread/INFO]: [Peparad_Hranolky: Made chickenwing_520 a server operator]
-[16:50:47] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[16:50:47] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[16:51:03] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
-[16:51:03] [Server thread/INFO]: Peparad_Hranolky left the game
-[16:51:07] [Server thread/INFO]: eshark102 lost connection: Disconnected
-[16:51:07] [Server thread/INFO]: eshark102 left the game
-[16:51:20] [Server thread/INFO]: chickenwing_520 has made the advancement [Monster Hunter]
-[16:51:28] [Server thread/INFO]: chickenwing_520 lost connection: Disconnected
-[16:51:28] [Server thread/INFO]: chickenwing_520 left the game
-[16:51:42] [User Authenticator #1/INFO]: UUID of player chickenwing_520 is b1aa9650-6618-38f4-9004-cc913b84c3de
-[16:51:42] [Server thread/INFO]: chickenwing_520 joined the game
-[16:51:42] [Server thread/INFO]: chickenwing_520[/127.143.172.194:32817] logged in with entity id 579 at ([world]316.03753595024455, 76.78261590512203, -239.3567270604503)
-[16:51:50] [Server thread/INFO]: chickenwing_520 issued server command: /gamemode creative
-[16:51:50] [Server thread/INFO]: [chickenwing_520: Set own game mode to Creative Mode]
-[16:52:17] [Server thread/INFO]: chickenwing_520 has made the advancement [A Throwaway Joke]
-[16:54:29] [Server thread/INFO]: chickenwing_520 lost connection: Disconnected
-[16:54:29] [Server thread/INFO]: chickenwing_520 left the game
-[17:05:14] [User Authenticator #2/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
-[17:05:14] [Server thread/INFO]: Peparad_Hranolky joined the game
-[17:05:14] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:47737] logged in with entity id 1131 at ([world]305.5866157264122, 74.99323530006211, -233.7786424530041)
-[17:05:21] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[17:05:21] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[17:05:58] [User Authenticator #2/INFO]: UUID of player chickenwing_520 is b1aa9650-6618-38f4-9004-cc913b84c3de
-[17:05:58] [Server thread/INFO]: chickenwing_520 joined the game
-[17:05:58] [Server thread/INFO]: chickenwing_520[/127.143.172.194:38155] logged in with entity id 1543 at ([world]451.15744387709884, 64.0, -162.47787609084003)
-[17:06:08] [Server thread/INFO]: chickenwing_520 issued server command: /gamemode creative
-[17:06:08] [Server thread/INFO]: [chickenwing_520: Set own game mode to Creative Mode]
-[17:06:11] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
-[17:06:11] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
-[17:06:13] [Server thread/INFO]: Peparad_Hranolky fell from a high place
-[17:06:13] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[17:06:13] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[17:06:37] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp chickenwing_520 pe
-[17:06:38] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp chickenwing_520 Peparad_Hranolky
-[17:09:59] [Server thread/INFO]: Peparad_Hranolky issued server command: /clear chickenwing_520
-[17:09:59] [Server thread/INFO]: [Peparad_Hranolky: Removed 25 items from player chickenwing_520]
-[17:10:07] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival @a
-[17:10:07] [Server thread/INFO]: [Peparad_Hranolky: Set chickenwing_520's game mode to Survival Mode]
-[17:10:07] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
-[17:10:19] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[17:10:19] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[17:10:42] [Server thread/INFO]: chickenwing_520 issued server command: /gamemode creative
-[17:10:42] [Server thread/INFO]: [chickenwing_520: Set own game mode to Creative Mode]
-[17:12:19] [Server thread/INFO]: Peparad_Hranolky has made the advancement [Stone Age]
-[17:12:44] [Server thread/INFO]: chickenwing_520 issued server command: //copy
-[17:12:53] [Server thread/INFO]: chickenwing_520 issued server command: /plugins
-[17:17:10] [Server thread/INFO]: Plugins (9): CraftEnhance, ExecutableItems, LuckPerms, PlugManX (PlugMan), ProtocolLib, SCore, WildChests, WildTools, WorldEdit
-[17:17:24] [Server thread/INFO]: Peparad_Hranolky issued server command: /wildtools:tools
-[17:17:24] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Cannot execute command 'wildtools:tools' in plugin WildTools v2022.7 - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.dispatchCommand(CraftServer.java:929) ~[paper-1.19.3.jar:git-Paper-377]
-	at org.bukkit.craftbukkit.v1_19_R2.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.19.3.jar:git-Paper-377]
-	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[paper-1.19.3.jar:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:313) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:297) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2288) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$20(ServerGamePacketListenerImpl.java:2248) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1341) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1318) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1311) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1289) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1177) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-377]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[17:17:29] [Server thread/INFO]: Peparad_Hranolky issued server command: /wildchests:chests
-[17:17:29] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Cannot execute command 'wildchests:chests' in plugin WildChests v2022.7 - plugin is disabled.
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.dispatchCommand(CraftServer.java:929) ~[paper-1.19.3.jar:git-Paper-377]
-	at org.bukkit.craftbukkit.v1_19_R2.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.19.3.jar:git-Paper-377]
-	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[paper-1.19.3.jar:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:313) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:297) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2288) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$20(ServerGamePacketListenerImpl.java:2248) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1341) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1318) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1311) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1289) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1177) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-377]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[17:17:56] [Server thread/INFO]: Peparad_Hranolky issued server command: /plugman reload WildChests
-[17:17:57] [Server thread/INFO]: [WildChests] Data version: 3218
-[17:17:57] [Server thread/INFO]: [WildChests] The plugin doesn't support your minecraft version.
-[17:17:57] [Server thread/INFO]: [WildChests] Please try a different version.
-[17:17:57] [Server thread/INFO]: [WildChests] Enabling WildChests v2022.7
-[17:18:11] [Server thread/INFO]: Peparad_Hranolky issued server command: /ceh viewer
-[17:18:32] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp chickenwing_520 pe
-[17:18:35] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp chickenwing_520 Peparad_Hranolky
-[17:26:27] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp chickenwing_520
-[17:33:12] [User Authenticator #3/INFO]: UUID of player Bukayovec is 6791202e-1d5d-36ae-9e59-cf430d68cc00
-[17:33:12] [Server thread/INFO]: Bukayovec joined the game
-[17:33:12] [Server thread/INFO]: Bukayovec[/127.153.124.185:48497] logged in with entity id 5799 at ([world]304.5, 71.0, -232.5)
-[17:33:20] [Async Chat Thread - #2/INFO]: [Not Secure] <chickenwing_520> dc
-[17:33:27] [Async Chat Thread - #4/INFO]: [Not Secure] <chickenwing_520> dc
-[17:33:29] [Async Chat Thread - #3/INFO]: [Not Secure] <chickenwing_520> dis
-[17:35:39] [Async Chat Thread - #5/INFO]: [Not Secure] <Bukayovec> je to pro cracked mc??
-[17:35:45] [Async Chat Thread - #7/INFO]: [Not Secure] <chickenwing_520> yes
-[17:36:00] [Async Chat Thread - #6/INFO]: [Not Secure] <Bukayovec> brb
-[17:36:03] [Server thread/INFO]: Bukayovec lost connection: Disconnected
-[17:36:03] [Server thread/INFO]: Bukayovec left the game
-[17:36:45] [User Authenticator #4/INFO]: UUID of player Brambora25 is e7a0f11f-5e45-3074-ba98-dfa07a574cfc
-[17:36:45] [Server thread/INFO]: Brambora25 joined the game
-[17:36:45] [Server thread/INFO]: Brambora25[/127.153.124.185:59807] logged in with entity id 6222 at ([world]305.5, 71.0, -241.5)
-[17:37:47] [Server thread/INFO]: chickenwing_520 issued server command: //paste
-[17:38:22] [Server thread/INFO]: chickenwing_520 issued server command: //undo
-[17:39:09] [Async Chat Thread - #8/INFO]: [Not Secure] <Brambora25> anvilky sou tu proc
-[17:39:35] [Async Chat Thread - #8/INFO]: [Not Secure] <chickenwing_520> a
-[17:39:42] [Async Chat Thread - #9/INFO]: [Not Secure] <chickenwing_520> neber je
-[17:39:52] [Async Chat Thread - #8/INFO]: [Not Secure] <Brambora25> proc
-[17:39:54] [Server thread/INFO]: chickenwing_520 issued server command: /kill Brambora25
-[17:39:54] [Server thread/INFO]: Brambora25 fell out of the world
-[17:40:36] [Async Chat Thread - #9/INFO]: [Not Secure] <Brambora25> co tu je za pluginy??
-[17:40:45] [Async Chat Thread - #8/INFO]: [Not Secure] <chickenwing_520> ./plugins :D¨¨
-[17:40:53] [Server thread/INFO]: Brambora25 issued server command: /plugins
-[17:40:56] [Async Chat Thread - #9/INFO]: [Not Secure] <chickenwing_520> muzes discor?
-[17:41:24] [Server thread/INFO]: chickenwing_520 issued server command: /plugins
-[17:43:12] [Server thread/INFO]: chickenwing_520 lost connection: Disconnected
-[17:43:12] [Server thread/INFO]: chickenwing_520 left the game
-[17:47:56] [User Authenticator #5/INFO]: UUID of player Strade_ is 20c18759-70bd-30e2-af34-a453e1588ede
-[17:47:56] [Server thread/INFO]: Strade_ joined the game
-[17:47:56] [Server thread/INFO]: Strade_[/127.143.183.70:49895] logged in with entity id 10045 at ([world]320.5, 71.0, -245.5)
-[17:48:55] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
-[17:48:55] [Server thread/INFO]: Peparad_Hranolky left the game
-[17:50:43] [Server thread/INFO]: Brambora25 has made the advancement [Fishy Business]
-[17:51:42] [User Authenticator #6/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
-[17:51:42] [Server thread/INFO]: Peparad_Hranolky joined the game
-[17:51:42] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:45629] logged in with entity id 12245 at ([world]322.6212661118178, 77.9233327662571, -220.90628807278344)
-[17:51:55] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[17:51:55] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[17:52:45] [Server thread/INFO]: Peparad_Hranolky issued server command: /pl
-[17:52:57] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
-[17:52:57] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
-[17:53:29] [Async Chat Thread - #10/INFO]: [Not Secure] <Peparad_Hranolky> jde někdo z vás discord?
-[17:53:41] [Async Chat Thread - #11/INFO]: [Not Secure] <Strade_> nn
-[17:53:49] [Async Chat Thread - #10/INFO]: [Not Secure] <Strade_> volam s zenou srry
-[17:53:50] [Async Chat Thread - #11/INFO]: [Not Secure] <Peparad_Hranolky> ok
-[17:53:52] [Async Chat Thread - #11/INFO]: [Not Secure] <Peparad_Hranolky> oh
-[17:53:53] [Async Chat Thread - #10/INFO]: [Not Secure] <Peparad_Hranolky> okk
-[17:55:51] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-377 (MC: 1.19.3) ---
-[17:55:51] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[17:55:51] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:55:51] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[17:55:51] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[17:55:51] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:55:51] [Paper Watchdog Thread/ERROR]: Entity UUID: e7a0f11f-5e45-3074-ba98-dfa07a574cfc
-[17:55:51] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (-1722.4730238166906, 43.26587542725341, 199.83985877827368)
-[17:55:51] [Paper Watchdog Thread/ERROR]: Velocity: (-1.3928460902782189E-5, -0.11412370114791086, 2.8917715588441524E-4) (in blocks per tick)
-[17:55:51] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[-1722.7730238286115, 43.26587542725341, 199.53985876635275] -> [-1722.1730238047696, 45.0658753795697, 200.1398587901946]
-[17:55:51] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 108263
-[17:55:51] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:55:51] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:55:51] [Paper Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: RUNNABLE
-[17:55:51] [Paper Watchdog Thread/ERROR]: 	Stack:
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.ArrayList.forEach(ArrayList.java:1510)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.lambda$updateForX$3(NoiseChunk.java:285)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:184)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:121)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:708)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:101)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:155)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:93)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:85)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$8317/0x000000080235e000.get(Unknown Source)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:449)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:84)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:167)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:304)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:274)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:203)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1889)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:59)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4259/0x00000008014dc528.apply(Unknown Source)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$7470/0x00000008021d3c18.accept(Unknown Source)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:97)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:108)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:115)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:143)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:138)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1539)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1061)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:572)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1959)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$7450/0x00000008021cb888.run(Unknown Source)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1341)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1318)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1311)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1289)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1177)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4385/0x0000000801512608.run(Unknown Source)
-[17:55:52] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
-[17:55:52] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:55:52] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[17:55:52] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:55:56] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-377 (MC: 1.19.3) ---
-[17:55:56] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[17:55:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:55:56] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[17:55:56] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[17:55:56] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:55:56] [Paper Watchdog Thread/ERROR]: Entity UUID: e7a0f11f-5e45-3074-ba98-dfa07a574cfc
-[17:55:56] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (-1722.4730238166906, 43.26587542725341, 199.83985877827368)
-[17:55:56] [Paper Watchdog Thread/ERROR]: Velocity: (-1.3928460902782189E-5, -0.11412370114791086, 2.8917715588441524E-4) (in blocks per tick)
-[17:55:56] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[-1722.7730238286115, 43.26587542725341, 199.53985876635275] -> [-1722.1730238047696, 45.0658753795697, 200.1398587901946]
-[17:55:56] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 108263
-[17:55:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:55:56] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:55:56] [Paper Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: RUNNABLE
-[17:55:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.hashCode(DensityFunctions.java:740)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.hashCode(DensityFunctions.java:604)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.hashCode(DensityFunctions.java:740)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.hashCode(DensityFunctions.java:740)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.core.Holder$Direct.hashCode(Holder.java:44)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.hashCode(DensityFunctions.java:1063)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.hashCode(CubicSpline.java:165)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.ImmutableCollections$AbstractImmutableList.hashCode(ImmutableCollections.java:322)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.hashCode(CubicSpline.java:165)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.ImmutableCollections$AbstractImmutableList.hashCode(ImmutableCollections.java:322)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.hashCode(CubicSpline.java:165)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.hashCode(DensityFunctions.java:1026)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MulOrAdd.hashCode(DensityFunctions.java:740)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.hashCode(DensityFunctions.java:245)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.hashCode(DensityFunctions.java:245)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Marker.type(DensityFunctions.java:680)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.HashMap.hash(HashMap.java:338)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.HashMap.computeIfAbsent(HashMap.java:1191)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.wrap(NoiseChunk.java:335)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$$Lambda$7974/0x00000008022ca0c0.apply(Unknown Source)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:887)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:387)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseRouter.mapAll(NoiseRouter.java:17)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:122)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:171)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:121)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:708)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:101)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:155)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:93)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:85)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$8317/0x000000080235e000.get(Unknown Source)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:449)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:84)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:167)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:304)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:274)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:203)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1889)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:59)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4259/0x00000008014dc528.apply(Unknown Source)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$7470/0x00000008021d3c18.accept(Unknown Source)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:97)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:108)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:115)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:143)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:138)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1539)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1061)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:572)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1959)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$7450/0x00000008021cb888.run(Unknown Source)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1341)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1318)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1311)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1289)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1177)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4385/0x0000000801512608.run(Unknown Source)
-[17:55:56] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
-[17:55:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:55:56] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[17:55:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:55:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17797ms or 355 ticks behind
-[17:55:59] [Server thread/WARN]: Strade_ moved too quickly! -8.68816952583066,1.0,5.265945833197037
-[17:56:33] [Server thread/INFO]: Brambora25 has made the advancement [Acquire Hardware]
-[17:57:34] [Server thread/INFO]: Brambora25 has made the advancement [Ice Bucket Challenge]
-[17:57:42] [Async Chat Thread - #12/INFO]: [Not Secure] <Peparad_Hranolky> Kdyžtak pls pozvěte koho chcete at je nas tu co nejvic
-[17:57:48] [Async Chat Thread - #12/INFO]: [Not Secure] <Brambora25> ok
-[17:57:56] [Async Chat Thread - #12/INFO]: [Not Secure] <Peparad_Hranolky> nej pozvavejte nekoho komu uplne neverite aby to tu nerozgriefoval
-[17:58:11] [Server thread/INFO]: Peparad_Hranolky has made the advancement [Getting an Upgrade]
-[17:58:22] [Async Chat Thread - #13/INFO]: [Not Secure] <Strade_> a tohle je jako smp?
-[17:58:28] [Async Chat Thread - #12/INFO]: [Not Secure] <Peparad_Hranolky> ani jako uplne ne
-[17:58:33] [Async Chat Thread - #14/INFO]: [Not Secure] <Peparad_Hranolky> ale proste minecraft
-[17:58:42] [Async Chat Thread - #12/INFO]: [Not Secure] <Peparad_Hranolky> a možná tu budou pak valky
-[17:58:49] [Async Chat Thread - #14/INFO]: [Not Secure] <Peparad_Hranolky> ale to se uvidi podle poctu hracu
-[17:58:57] [Async Chat Thread - #14/INFO]: [Not Secure] <Peparad_Hranolky> aby to pak nebylo 3v3
-[17:58:57] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-377 (MC: 1.19.3) ---
-[17:58:57] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[17:58:57] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:58:57] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[17:58:57] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[17:58:57] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[17:58:57] [Paper Watchdog Thread/ERROR]: Entity UUID: e7a0f11f-5e45-3074-ba98-dfa07a574cfc
-[17:58:57] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (-2120.022595041032, 40.747706310592584, 222.63439760920167)
-[17:58:57] [Paper Watchdog Thread/ERROR]: Velocity: (9.762161503940029E-4, -0.16048909624826346, -0.0012259953952162062) (in blocks per tick)
-[17:58:57] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[-2120.322595052953, 40.747706310592584, 222.33439759728074] -> [-2119.7225950291113, 41.34770633443444, 222.9343976211226]
-[17:58:57] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 123081
-[17:58:57] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:58:57] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[17:58:57] [Paper Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: RUNNABLE
-[17:58:57] [Paper Watchdog Thread/ERROR]: 	Stack:
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.core.Holder$Direct.hashCode(Holder.java:44)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.hashCode(Objects.java:103)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e55c00.invoke(LambdaForm$MH)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e56c00.invoke(LambdaForm$MH)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e57000.linkToTargetMethod(LambdaForm$MH)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.hashCode(DensityFunctions.java:571)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.HashMap.hash(HashMap.java:338)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.HashMap.computeIfAbsent(HashMap.java:1191)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.wrap(NoiseChunk.java:335)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$$Lambda$7974/0x00000008022ca0c0.apply(Unknown Source)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.mapAll(DensityFunctions.java:1107)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.lambda$mapAll$0(DensityFunctions.java:1054)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$w$$Lambda$6519/0x0000000801f2f000.visit(Unknown Source)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$e$$Lambda$6520/0x0000000801f2f228.apply(Unknown Source)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$e$$Lambda$6520/0x0000000801f2f228.apply(Unknown Source)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1053)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:887)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:387)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseRouter.mapAll(NoiseRouter.java:17)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:122)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:171)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:121)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:708)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:101)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:155)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:93)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:85)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$8317/0x000000080235e000.get(Unknown Source)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:449)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:84)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:167)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:304)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:274)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:203)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1889)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:59)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4259/0x00000008014dc528.apply(Unknown Source)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$7470/0x00000008021d3c18.accept(Unknown Source)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:71)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:97)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:108)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:115)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:143)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:138)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1539)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1061)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:572)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1959)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$7450/0x00000008021cb888.run(Unknown Source)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1341)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1318)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1311)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1289)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1177)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4385/0x0000000801512608.run(Unknown Source)
-[17:58:57] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
-[17:58:57] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:58:57] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[17:58:57] [Paper Watchdog Thread/ERROR]: ------------------------------
-[17:59:01] [Async Chat Thread - #12/INFO]: [Not Secure] <Strade_> k
-[17:59:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14110ms or 282 ticks behind
-[17:59:02] [Server thread/WARN]: Brambora25 moved too quickly! 4.356169993204276,21.2806967012921,5.3968214835387585
-[17:59:15] [Server thread/INFO]: [Not Secure] [Server] Is the server lagging?
-[17:59:40] [Async Chat Thread - #14/INFO]: [Not Secure] <Peparad_Hranolky> There was a lag few seconds ago
-[17:59:46] [Async Chat Thread - #12/INFO]: [Not Secure] <Peparad_Hranolky> But just a little bit
-[17:59:51] [Async Chat Thread - #12/INFO]: [Not Secure] <Strade_> vim
-[18:00:00] [Async Chat Thread - #14/INFO]: [Not Secure] <Strade_> se mi lagla ovce ve vzduchu
-[18:00:04] [Async Chat Thread - #12/INFO]: [Not Secure] <Peparad_Hranolky> xD
-[18:00:20] [Async Chat Thread - #14/INFO]: [Not Secure] <Peparad_Hranolky> To píšu tomu typkovi co dělá ten server
-[18:00:29] [Async Chat Thread - #12/INFO]: [Not Secure] <Peparad_Hranolky> on neni uplne cech
-[18:00:29] [Server thread/INFO]: Strade_ has made the advancement [Stone Age]
-[18:02:24] [Server thread/INFO]: --------- Help: Index ---------------------------
-[18:02:24] [Server thread/INFO]: Use /help [n] to get page n of help.
-[18:02:24] [Server thread/INFO]: Aliases: Lists command aliases
-[18:02:24] [Server thread/INFO]: Bukkit: All commands for Bukkit
-[18:02:24] [Server thread/INFO]: CraftEnhance: All commands for CraftEnhance
-[18:02:24] [Server thread/INFO]: ExecutableItems: All commands for ExecutableItems
-[18:02:24] [Server thread/INFO]: LuckPerms: All commands for LuckPerms
-[18:02:24] [Server thread/INFO]: Minecraft: All commands for Minecraft
-[18:02:24] [Server thread/INFO]: PlugManX: All commands for PlugManX
-[18:02:24] [Server thread/INFO]: ProtocolLib: All commands for ProtocolLib
-[18:02:24] [Server thread/INFO]: SCore: All commands for SCore
-[18:02:24] [Server thread/INFO]: WildChests: All commands for WildChests
-[18:02:24] [Server thread/INFO]: WildTools: All commands for WildTools
-[18:02:24] [Server thread/INFO]: WorldEdit: All commands for WorldEdit
-[18:02:24] [Server thread/INFO]: /.s: Execute last CraftScript
-[18:02:24] [Server thread/INFO]: //: Toggle the super pickaxe function
-[18:02:24] [Server thread/INFO]: //calculate: Evaluate a mathematical expression
-[18:02:24] [Server thread/INFO]: //center: Set the center block(s)
-[18:02:24] [Server thread/INFO]: //chunk: Set the selection to your current chunk.
-[18:02:24] [Server thread/INFO]: //contract: Contract the selection area
-[18:02:24] [Server thread/INFO]: //copy: Copy the selection to the clipboard
-[18:02:24] [Server thread/INFO]: //count: Counts the number of blocks matching a mask
-[18:02:24] [Server thread/INFO]: //curve: Draws a spline through selected points
-[18:02:24] [Server thread/INFO]: //cut: Cut the selection to the clipboard
-[18:02:24] [Server thread/INFO]: //cyl: Generates a cylinder.
-[18:02:24] [Server thread/INFO]: //deform: Deforms a selected region with an expression
-[18:02:24] [Server thread/INFO]: //distr: Get the distribution of blocks in the selection
-[18:02:24] [Server thread/INFO]: //drain: Drain a pool
-[18:02:24] [Server thread/INFO]: //drawsel: Toggle drawing the current selection
-[18:02:24] [Server thread/INFO]: //expand: Expand the selection area
-[18:02:24] [Server thread/INFO]: //faces: Build the walls, ceiling, and floor of a selection
-[18:02:24] [Server thread/INFO]: //fast: Toggle fast mode
-[18:02:24] [Server thread/INFO]: //fill: Fill a hole
-[18:02:24] [Server thread/INFO]: //fillr: Fill a hole recursively
-[18:02:24] [Server thread/INFO]: //flip: Flip the contents of the clipboard across the origin
-[18:02:24] [Server thread/INFO]: //flora: Make flora within the region
-[18:02:24] [Server thread/INFO]: //forest: Make a forest within the region
-[18:02:24] [Server thread/INFO]: //generate: Generates a shape according to a formula.
-[18:02:24] [Server thread/INFO]: //generatebiome: Sets biome according to a formula.
-[18:02:24] [Server thread/INFO]: //hcyl: Generates a hollow cylinder.
-[18:02:24] [Server thread/INFO]: //help: Displays help for WorldEdit commands
-[18:02:24] [Server thread/INFO]: //hollow: Hollows out the object contained in this selection
-[18:02:24] [Server thread/INFO]: //hpos1: Set position 1 to targeted block
-[18:02:24] [Server thread/INFO]: //hpos2: Set position 2 to targeted block
-[18:02:24] [Server thread/INFO]: //hpyramid: Generate a hollow pyramid
-[18:02:24] [Server thread/INFO]: //hsphere: Generates a hollow sphere.
-[18:02:24] [Server thread/INFO]: //inset: Inset the selection area
-[18:02:24] [Server thread/INFO]: //limit: Modify block change limit
-[18:02:24] [Server thread/INFO]: //line: Draws line segments between cuboid selection corners or convex polyhedral selection vertices
-[18:02:24] [Server thread/INFO]: //move: Move the contents of the selection
-[18:02:24] [Server thread/INFO]: //naturalize: 3 layers of dirt on top then rock below
-[18:02:24] [Server thread/INFO]: //outset: Outset the selection area
-[18:02:24] [Server thread/INFO]: //overlay: Set a block on top of blocks in the region
-[18:02:24] [Server thread/INFO]: //paste: Paste the clipboard's contents
-[18:02:24] [Server thread/INFO]: //perf: Toggle side effects for performance
-[18:02:24] [Server thread/INFO]: //pos1: Set position 1
-[18:02:24] [Server thread/INFO]: //pos2: Set position 2
-[18:02:24] [Server thread/INFO]: //pyramid: Generate a filled pyramid
-[18:02:24] [Server thread/INFO]: //regen: Regenerates the contents of the selection
-[18:02:24] [Server thread/INFO]: //reorder: Sets the reorder mode of WorldEdit
-[18:02:24] [Server thread/INFO]: //replace: Replace all blocks in the selection with another
-[18:02:24] [Server thread/INFO]: //rotate: Rotate the contents of the clipboard
-[18:02:24] [Server thread/INFO]: //sel: Choose a region selector
-[18:02:24] [Server thread/INFO]: //set: Sets all the blocks in the region
-[18:02:24] [Server thread/INFO]: //setbiome: Sets the biome of your current block or region.
-[18:02:24] [Server thread/INFO]: //shift: Shift the selection area
-[18:02:24] [Server thread/INFO]: //size: Get information about the selection
-[18:02:24] [Server thread/INFO]: //smooth: Smooth the elevation in the selection
-[18:02:24] [Server thread/INFO]: //sphere: Generates a filled sphere.
-[18:02:24] [Server thread/INFO]: //stack: Repeat the contents of the selection
-[18:02:24] [Server thread/INFO]: //timeout: Modify evaluation timeout time.
-[18:02:24] [Server thread/INFO]: //walls: Build the four sides of the selection
-[18:02:24] [Server thread/INFO]: //wand: Get the wand item
-[18:02:24] [Server thread/INFO]: //watchdog: Changes watchdog hook state.
-[18:02:24] [Server thread/INFO]: //world: Sets the world override
-[18:02:24] [Server thread/INFO]: /advancement: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /ascend: Go up a floor
-[18:02:24] [Server thread/INFO]: /attribute: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /ban: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /ban-ip: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /banlist: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /biomeinfo: Get the biome of the targeted block.
-[18:02:24] [Server thread/INFO]: /biomelist: Gets all biomes available.
-[18:02:24] [Server thread/INFO]: /bossbar: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /brush: Brushing commands
-[18:02:24] [Server thread/INFO]: /butcher: Kill all or nearby mobs
-[18:02:24] [Server thread/INFO]: /ceh: Use /ceh and see tab completions. To see what a command does do /ceh [subcommand] help.
-[18:02:24] [Server thread/INFO]: /ceil: Go to the ceiling
-[18:02:24] [Server thread/INFO]: /chunkinfo: Get information about the chunk you're inside
-[18:02:24] [Server thread/INFO]: /clear: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /clearclipboard: Clear your clipboard
-[18:02:24] [Server thread/INFO]: /clearhistory: Clear your history
-[18:02:24] [Server thread/INFO]: /clone: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /cs: Execute a CraftScript
-[18:02:24] [Server thread/INFO]: /cycler: Block data cycler tool
-[18:02:24] [Server thread/INFO]: /data: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /datapack: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /debug: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /defaultgamemode: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /delchunks: Delete chunks that your selection includes
-[18:02:24] [Server thread/INFO]: /deltree: Floating tree remover tool
-[18:02:24] [Server thread/INFO]: /deop: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /descend: Go down a floor
-[18:02:24] [Server thread/INFO]: /difficulty: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /edititem: Edits the item in your hand. Try to tab complete to view all subcommands. To see what a subcommand does, do /edititem [subcommand] help.
-[18:02:24] [Server thread/INFO]: /effect: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /ei: ei command
-[18:02:24] [Server thread/INFO]: /enchant: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /execute: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /experience: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /extinguish: Extinguish nearby fire
-[18:02:24] [Server thread/INFO]: /farwand: Wand at a distance tool
-[18:02:24] [Server thread/INFO]: /fill: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /fillbiome: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /filter: Add or remove programmable filters to the packet listeners.
-[18:02:24] [Server thread/INFO]: /fixlava: Fix lava to be stationary
-[18:02:24] [Server thread/INFO]: /fixwater: Fix water to be stationary
-[18:02:24] [Server thread/INFO]: /floodfill: Flood fill tool
-[18:02:24] [Server thread/INFO]: /forceload: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /forestgen: Generate a forest
-[18:02:24] [Server thread/INFO]: /function: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /gamemode: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /gamerule: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /give: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /gmask: Set the global mask
-[18:02:24] [Server thread/INFO]: /green: Converts dirt to grass blocks in the area
-[18:02:24] [Server thread/INFO]: /help: Shows the help menu
-[18:02:24] [Server thread/INFO]: /info: Block information tool
-[18:02:24] [Server thread/INFO]: /item: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /jfr: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /jumpto: Teleport to a location
-[18:02:24] [Server thread/INFO]: /kick: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /kill: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /list: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /listchunks: List chunks that your selection includes
-[18:02:24] [Server thread/INFO]: /locate: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /loot: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /lrbuild: Long-range building tool
-[18:02:24] [Server thread/INFO]: /luckperms: Manage permissions
-[18:02:24] [Server thread/INFO]: /mask: Set the brush mask
-[18:02:24] [Server thread/INFO]: /material: Set the brush material
-[18:02:24] [Server thread/INFO]: /me: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /minecraft:help: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /minecraft:reload: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /msg: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /mspt: View server tick times
-[18:02:24] [Server thread/INFO]: /navwand: Navigation wand tool
-[18:02:24] [Server thread/INFO]: /none: Unbind a bound tool from your current item
-[18:02:24] [Server thread/INFO]: /op: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /packet: Add or remove a simple packet listener.
-[18:02:24] [Server thread/INFO]: /packetlog: Logs hex representations of packets to a file or console
-[18:02:24] [Server thread/INFO]: /paper: Paper related commands
-[18:02:24] [Server thread/INFO]: /pardon: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /pardon-ip: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /particle: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /perf: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /place: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /playsound: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /plugins: Gets a list of plugins running on the server
-[18:02:24] [Server thread/INFO]: /plugman: Manage plugins.
-[18:02:24] [Server thread/INFO]: /protocol: Performs administrative tasks regarding ProtocolLib.
-[18:02:24] [Server thread/INFO]: /pumpkins: Generate pumpkin patches
-[18:02:24] [Server thread/INFO]: /range: Set the brush range
-[18:02:24] [Server thread/INFO]: /recipe: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /recipes: Opens a GUI to view the custom recipes. This is an alias of /ceh viewer. Use /recipes help to see the description.
-[18:02:24] [Server thread/INFO]: /redo: Redoes the last action (from history)
-[18:02:24] [Server thread/INFO]: /reload: Reloads the server configuration and plugins
-[18:02:24] [Server thread/INFO]: /remove: Remove all entities of a type
-[18:02:24] [Server thread/INFO]: /removeabove: Remove blocks above your head.
-[18:02:24] [Server thread/INFO]: /removebelow: Remove blocks below you.
-[18:02:24] [Server thread/INFO]: /removenear: Remove blocks near you.
-[18:02:24] [Server thread/INFO]: /repl: Block replacer tool
-[18:02:24] [Server thread/INFO]: /replacenear: Replace nearby blocks
-[18:02:24] [Server thread/INFO]: /restart: Restarts the server
-[18:02:24] [Server thread/INFO]: /restore: Restore the selection from a snapshot
-[18:02:24] [Server thread/INFO]: /save-all: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /save-off: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /save-on: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /say: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /schedule: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /schematic: Schematic commands for saving/loading areas
-[18:02:24] [Server thread/INFO]: /score: score command
-[18:02:24] [Server thread/INFO]: /scoreboard: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /searchitem: Search for an item
-[18:02:24] [Server thread/INFO]: /seed: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /selwand: Selection wand tool
-[18:02:24] [Server thread/INFO]: /setblock: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /setidletimeout: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /setworldspawn: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /size: Set the brush size
-[18:02:24] [Server thread/INFO]: /snapshot: Snapshot commands for restoring backups
-[18:02:24] [Server thread/INFO]: /snow: Simulates snow
-[18:02:24] [Server thread/INFO]: /spawnpoint: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /spectate: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /spigot: Spigot related commands
-[18:02:24] [Server thread/INFO]: /spreadplayers: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /stop: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /stopsound: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /summon: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /superpickaxe: Super-pickaxe commands
-[18:02:24] [Server thread/INFO]: /tag: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /team: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /teammsg: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /teleport: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /tell: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /tellraw: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /thaw: Thaws the area
-[18:02:24] [Server thread/INFO]: /thru: Pass through walls
-[18:02:24] [Server thread/INFO]: /time: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /timings: Manages Spigot Timings data to see performance of the server.
-[18:02:24] [Server thread/INFO]: /title: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /tm: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /toggleeditwand: Remind the user that the wand is now a tool and can be unbound with /tool none.
-[18:02:24] [Server thread/INFO]: /toggleplace: Switch between your position and pos1 for placement
-[18:02:24] [Server thread/INFO]: /tool: Binds a tool to the item in your hand
-[18:02:24] [Server thread/INFO]: /tools: List of all wildtools command
-[18:02:24] [Server thread/INFO]: /tp: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /tps: Gets the current ticks per second for the server
-[18:02:24] [Server thread/INFO]: /tracemask: Set the mask used to stop tool traces
-[18:02:24] [Server thread/INFO]: /tree: Tree generator tool
-[18:02:24] [Server thread/INFO]: /trigger: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /undo: Undoes the last action (from history)
-[18:02:24] [Server thread/INFO]: /unstuck: Escape from being stuck inside a block
-[18:02:24] [Server thread/INFO]: /up: Go upwards some distance
-[18:02:24] [Server thread/INFO]: /version: Gets the version of this server including any plugins in use
-[18:02:24] [Server thread/INFO]: /w: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /weather: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /whitelist: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /worldborder: A Mojang provided command.
-[18:02:24] [Server thread/INFO]: /worldedit: WorldEdit commands
-[18:02:24] [Server thread/INFO]: /xp: A Mojang provided command.
-[18:02:35] [Server thread/INFO]: Plugins (9): CraftEnhance, ExecutableItems, LuckPerms, PlugManX (PlugMan), ProtocolLib, SCore, WildChests, WildTools, WorldEdit
-[18:04:17] [Async Chat Thread - #15/INFO]: [Not Secure] <Strade_> lag?
-[18:04:21] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-377 (MC: 1.19.3) ---
-[18:04:21] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[18:04:21] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:04:21] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[18:04:21] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
-[18:04:21] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
-[18:04:21] [Paper Watchdog Thread/ERROR]: Entity UUID: e7a0f11f-5e45-3074-ba98-dfa07a574cfc
-[18:04:21] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (-2226.668546569351, 56.71649985668288, 720.6999999880791)
-[18:04:21] [Paper Watchdog Thread/ERROR]: Velocity: (-0.040166620555032374, -0.07820168988271745, 0.0) (in blocks per tick)
-[18:04:21] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[-2226.9685465812718, 56.71649985668288, 720.3999999761581] -> [-2226.36854655743, 57.31649988052474, 721.0]
-[18:04:21] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 149652
-[18:04:21] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:04:21] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[18:04:21] [Paper Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: RUNNABLE
-[18:04:21] [Paper Watchdog Thread/ERROR]: 	Stack:
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.Objects.equals(Objects.java:64)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DirectMethodHandle$Holder.invokeStatic(DirectMethodHandle$Holder)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e58800.invoke(LambdaForm$MH)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e59c00.invoke(LambdaForm$MH)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DelegatingMethodHandle$Holder.delegate(DelegatingMethodHandle$Holder)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e59800.guard(LambdaForm$MH)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.DelegatingMethodHandle$Holder.delegate(DelegatingMethodHandle$Holder)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e59800.guard(LambdaForm$MH)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.invoke.LambdaForm$MH/0x0000000800e5a000.linkToTargetMethod(LambdaForm$MH)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.equals(DensityFunctions.java:571)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.HashMap.computeIfAbsent(HashMap.java:1206)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.wrap(NoiseChunk.java:335)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk$$Lambda$7974/0x00000008022ca0c0.apply(Unknown Source)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$ShiftedNoise.mapAll(DensityFunctions.java:1007)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline$Coordinate.mapAll(DensityFunctions.java:1107)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.lambda$mapAll$0(DensityFunctions.java:1054)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$w$$Lambda$6519/0x0000000801f2f000.visit(Unknown Source)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$e$$Lambda$6520/0x0000000801f2f228.apply(Unknown Source)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$e$$Lambda$6520/0x0000000801f2f228.apply(Unknown Source)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.AbstractList$RandomAccessSpliterator.forEachRemaining(AbstractList.java:720)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.CubicSpline$Multipoint.lambda$mapAll$3(CubicSpline.java:287)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Spline.mapAll(DensityFunctions.java:1053)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$RangeChoice.mapAll(DensityFunctions.java:887)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$BlendDensity.mapAll(DensityFunctions.java:387)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$MarkerOrMarked.mapAll(DensityFunctions.java:736)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.mapAll(DensityFunctions.java:648)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Mapped.a(DensityFunctions.java:604)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$Ap2.mapAll(DensityFunctions.java:309)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.DensityFunctions$HolderHolder.mapAll(DensityFunctions.java:585)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseRouter.mapAll(NoiseRouter.java:17)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseChunk.<init>(NoiseChunk.java:122)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.iterateNoiseColumn(NoiseBasedChunkGenerator.java:171)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator.getBaseHeight(NoiseBasedChunkGenerator.java:121)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getFirstOccupiedHeight(ChunkGenerator.java:708)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.onTopOfChunkCenter(Structure.java:101)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.structures.BuriedTreasureStructure.findGenerationPoint(BuriedTreasureStructure.java:20)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.Structure.findValidGenerationPoint(Structure.java:155)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.canCreateStructure(StructureCheck.java:93)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.lambda$checkStart$1(StructureCheck.java:85)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck$$Lambda$8317/0x000000080235e000.get(Unknown Source)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.longs.Long2BooleanOpenHashMap.computeIfAbsent(Long2BooleanOpenHashMap.java:449)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.levelgen.structure.StructureCheck.checkStart(StructureCheck.java:84)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.StructureManager.checkStructurePresence(StructureManager.java:167)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getStructureGeneratingAt(ChunkGenerator.java:304)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.getNearestGeneratedStructure(ChunkGenerator.java:274)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.ChunkGenerator.findNearestMapStructure(ChunkGenerator.java:203)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.findNearestMapStructure(ServerLevel.java:1889)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.run(ExplorationMapFunction.java:80)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemConditionalFunction.apply(LootItemConditionalFunction.java:30)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.ExplorationMapFunction.apply(ExplorationMapFunction.java:30)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions.lambda$compose$1(LootItemFunctions.java:59)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunctions$$Lambda$4259/0x00000008014dc528.apply(Unknown Source)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction.decorate(LootItemFunction.java:13)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.functions.LootItemFunction$$Lambda$7470/0x00000008021d3c18.accept(Unknown Source)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootItem.createItemStack(LootItem.java:32)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$1.createItemStack(LootPoolSingletonContainer.java:31)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItem(LootPool.java:78)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootPool.addRandomItems(LootPool.java:93)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItemsRaw(LootTable.java:97)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:108)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.getRandomItems(LootTable.java:115)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fillInventory(LootTable.java:143)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.storage.loot.LootTable.fill(LootTable.java:138)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.unpackLootTable(RandomizableContainerBlockEntity.java:85)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity.createMenu(RandomizableContainerBlockEntity.java:169)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayer.openMenu(ServerPlayer.java:1539)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.ChestBlock.use(ChestBlock.java:269)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.use(BlockBehaviour.java:1061)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerPlayerGameMode.useItemOn(ServerPlayerGameMode.java:572)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleUseItemOn(ServerGamePacketListenerImpl.java:1959)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.handle(ServerboundUseItemOnPacket.java:37)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.a(ServerboundUseItemOnPacket.java:9)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$7450/0x00000008021cb888.run(Unknown Source)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1341)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:197)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1318)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1311)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1289)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1177)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4385/0x0000000801512608.run(Unknown Source)
-[18:04:21] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.5/java.lang.Thread.run(Thread.java:833)
-[18:04:21] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:04:21] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[18:04:21] [Paper Watchdog Thread/ERROR]: ------------------------------
-[18:04:22] [Async Chat Thread - #16/INFO]: [Not Secure] <Brambora25> jj
-[18:04:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13831ms or 276 ticks behind
-[18:04:30] [Async Chat Thread - #16/INFO]: [Not Secure] <Strade_> uz
-[18:04:31] [Async Chat Thread - #15/INFO]: [Not Secure] <Peparad_Hranolky> mozny to je
-[18:05:02] [Server console handler/ERROR]: Caught previously unhandled exception :
-java.io.IOError: java.io.IOException: Input/output error
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:170) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:110) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.keymap.BindingReader.readBinding(BindingReader.java:61) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651) ~[jline-reader-3.20.0.jar:?]
-	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
-	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.19.3.jar:git-Paper-377]
-Caused by: java.io.IOException: Input/output error
-	at java.io.FileInputStream.read0(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:228) ~[?:?]
-	at org.jline.terminal.impl.AbstractPty$PtyInputStream.read(AbstractPty.java:73) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlockingInputStream.read(NonBlockingInputStream.java:62) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlocking$NonBlockingInputStreamReader.read(NonBlocking.java:168) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57) ~[jline-terminal-3.21.0.jar:?]
-	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160) ~[jline-reader-3.20.0.jar:?]
-	... 9 more
-[18:05:02] [Server thread/INFO]: Brambora25 lost connection: Disconnected
-[18:05:02] [Server thread/INFO]: Brambora25 left the game
-[18:05:02] [Server thread/INFO]: Strade_ lost connection: Disconnected
-[18:05:02] [Server thread/INFO]: Strade_ left the game
-[18:05:02] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
-[18:05:02] [Server thread/INFO]: Peparad_Hranolky left the game
-[18:05:02] [Server thread/INFO]: Stopping server
-[18:05:02] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.0
-[18:05:02] [Server thread/INFO]: [ExecutableItems] Disabling ExecutableItems v5.9.15
-[18:05:02] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b612
-[18:05:02] [Server thread/INFO]: [CraftEnhance] Disabling CraftEnhance v2.5.2
-[18:05:02] [Worker-Main-1/INFO]: Loaded 7 recipes
-[18:05:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.13+46576cc
-[18:05:03] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[18:05:03] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.58
-[18:05:03] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[18:05:03] [Server thread/ERROR]: Error occurred while disabling LuckPerms v5.4.58 (Is it up to date?)
-java.lang.NullPointerException: Cannot invoke "org.bukkit.plugin.java.JavaPlugin.getDescription()" because "loader.plugin" is null
-	at org.bukkit.plugin.java.JavaPluginLoader.getClassByName(JavaPluginLoader.java:236) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:124) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:574) ~[?:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
-	at me.lucko.luckperms.lib.caffeine.cache.BoundedLocalCache.values(BoundedLocalCache.java:2639) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.store.WebEditorSocketMap.getSockets(WebEditorSocketMap.java:55) ~[?:?]
-	at me.lucko.luckperms.common.plugin.AbstractLuckPermsPlugin.disable(AbstractLuckPermsPlugin.java:254) ~[?:?]
-	at me.lucko.luckperms.bukkit.LPBukkitBootstrap.onDisable(LPBukkitBootstrap.java:193) ~[?:?]
-	at me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin.onDisable(BukkitLoaderPlugin.java:56) ~[LuckPerms-Bukkit.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:266) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:400) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:581) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:558) ~[paper-api-1.19.3-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.disablePlugins(CraftServer.java:512) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:944) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:797) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1212) ~[paper-1.19.3.jar:git-Paper-377]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316) ~[paper-1.19.3.jar:git-Paper-377]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-[18:05:03] [Server thread/INFO]: Saving players
-[18:05:03] [Server thread/INFO]: Saving worlds
-[18:05:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:05:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:05:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:05:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Saved 3488 block chunks, 1707 entity chunks, 3 poi chunks in world 'world' in 2.90s
-[18:05:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:05:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[18:05:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:05:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:05:06] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[18:05:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:05:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:05:06] [Server thread/INFO]: Flushing Chunk IO
-[18:05:06] [Server thread/INFO]: Closing Thread Pool
-[18:05:06] [Server thread/INFO]: Closing Server
+[18:07:07] [ServerMain/INFO]: Building unoptimized datafixer
+[18:07:08] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:07:10] [ServerMain/INFO]: Loaded 7 recipes
+[18:07:11] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[18:07:11] [Server thread/INFO]: Loading properties
+[18:07:11] [Server thread/INFO]: This server is running Paper version git-Paper-377 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 5aee09d)
+[18:07:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:07:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:07:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[18:07:11] [Server thread/INFO]: Default game type: SURVIVAL
+[18:07:11] [Server thread/INFO]: Generating keypair
+[18:07:12] [Server thread/INFO]: Starting Minecraft server on *:51430
+[18:07:12] [Server thread/INFO]: Using epoll channel type
+[18:07:12] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
+[18:07:12] [Server thread/INFO]: Paper: Using OpenSSL (Linux aarch64) cipher from Velocity.
+[18:07:12] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:07:18] [Server thread/WARN]: Legacy plugin SpawnProtect v1.3.3 does not specify an api-version.
+[18:07:18] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.58
+[18:07:18] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.13+46576cc
+[18:07:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@40a570c5]
+[18:07:19] [Server thread/INFO]: [SpawnProtect] Loading SpawnProtect v1.3.3
+[18:07:19] [Server thread/INFO]: [WildChests] Loading WildChests v2022.7
+[18:07:19] [Server thread/INFO]: [WildChests] Data version: 3218
+[18:07:19] [Server thread/INFO]: [WildChests] The plugin doesn't support your minecraft version.
+[18:07:19] [Server thread/INFO]: [WildChests] Please try a different version.
+[18:07:19] [Server thread/INFO]: [CraftEnhance] Loading CraftEnhance v2.5.2
+[18:07:19] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b612
+[18:07:20] [Server thread/INFO]: [WildTools] Loading WildTools v2022.7
+[18:07:20] [Server thread/INFO]: [WildTools] Data version: 3218
+[18:07:20] [Server thread/INFO]: [WildTools] &cThe plugin doesn't support your minecraft version.
+[18:07:20] [Server thread/INFO]: [WildTools] &cPlease try a different version.
+[18:07:20] [Server thread/INFO]: [SCore] Loading SCore v3.9.15
+[18:07:20] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v5.9.15
+[18:07:20] [Server thread/INFO]: [PlugManX] Loading PlugManX v2.3.0
+[18:07:20] [Server thread/INFO]: true
+[18:07:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:07:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.58
+[18:07:21] [Server thread/INFO]:         __    
+[18:07:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.58
+[18:07:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:07:21] [Server thread/INFO]: 
+[18:07:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:07:21] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:07:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:07:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:07:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1681ms)
+[18:07:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
+[18:07:22] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:07:22] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:07:22] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R2.PaperweightAdapter as the Bukkit adapter
+[18:07:24] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b612
+[18:07:24] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.0
+[18:07:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:07:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:07:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:07:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:07:24] [Server thread/INFO]: Preparing level "world"
+[18:07:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:07:25] [Server thread/INFO]: Time elapsed: 121 ms
+[18:07:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[18:07:25] [Server thread/INFO]: Time elapsed: 38 ms
+[18:07:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[18:07:25] [Server thread/INFO]: Time elapsed: 31 ms
+[18:07:25] [Server thread/INFO]: [SpawnProtect] Enabling SpawnProtect v1.3.3*
+[18:07:25] [Server thread/INFO]: [WildChests] Enabling WildChests v2022.7
+[18:07:25] [Server thread/INFO]: [CraftEnhance] Enabling CraftEnhance v2.5.2
+[18:07:25] [Server thread/INFO]: [CraftEnhance] Now starting MenuApi. Any errors will be shown below.
+[18:07:25] [Server thread/WARN]: [CraftEnhance] Is untested on never minecraft versions an 1.18.2
+[18:07:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R2' loaded!
+[18:07:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[18:07:26] [Thread-9/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[18:07:26] [Server thread/INFO]: [CraftEnhance] CraftEnhance is managed and developed by DutchJelly.
+[18:07:26] [Server thread/INFO]: [CraftEnhance] If you find a bug in the plugin, please report it to https://github.com/DutchJelly/CraftEnhance/issues.
+[18:07:26] [Server thread/INFO]: [CraftEnhance] Running a version check to check that the server is compatible with game version 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19.
+[18:07:26] [Server thread/INFO]: [CraftEnhance] The correct version is installed.
+[18:07:26] [Server thread/INFO]: [WildTools] Enabling WildTools v2022.7
+[18:07:26] [Server thread/INFO]: [WildTools] Disabling WildTools v2022.7
+[18:07:26] [Server thread/INFO]: [SCore] Enabling SCore v3.9.15
+[18:07:26] [Server thread/INFO]: ================ SCore ================
+[18:07:26] [Server thread/INFO]: SCore Version of the server git-Paper-377 (MC: 1.19.3) !
+[18:07:26] [Server thread/INFO]: SCore ExecutableItems hooked !
+[18:07:26] [Server thread/INFO]: SCore ProtocolLib hooked !
+[18:07:26] [Server thread/INFO]: SCore Locale setup: EN
+[18:07:26] [Server thread/INFO]: SCore Language setup on EN
+[18:07:26] [Server thread/INFO]: SCore onnection to the db...
+[18:07:26] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
+[18:07:26] [Server thread/INFO]: SCore Creating table Commands if not exists...
+[18:07:26] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
+[18:07:26] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
+[18:07:26] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
+[18:07:26] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
+[18:07:26] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
+[18:07:27] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
+[18:07:27] [Server thread/INFO]: ================ SCore ================
+[18:07:27] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v5.9.15
+[18:07:27] [Server thread/INFO]: ================ ExecutableItems ================
+[18:07:27] [Server thread/ERROR]: [ExecutableItems] Invalid world: myWorld in the option disableItemsPerWorld
+[18:07:27] [Server thread/ERROR]: [ExecutableItems] Invalid world: myWorld2 in the option disableItemsPerWorld
+[18:07:30] [Server thread/INFO]: ================ ExecutableItems ================
+[18:07:30] [Server thread/INFO]: Starting GS4 status listener
+[18:07:30] [Server thread/INFO]: Thread Query Listener started
+[18:07:30] [Query Listener #1/INFO]: Query running on 0.0.0.0:51430
+[18:07:30] [Server thread/INFO]: Running delayed init tasks
+[18:07:30] [Server thread/INFO]: Done (19.030s)! For help, type "help"
+[18:07:30] [Server thread/INFO]: Timings Reset
+[18:07:30] [Craft Scheduler Thread - 3 - CraftEnhance/INFO]: [CraftEnhance] There's a new version (2.4.4) of the plugin available on https://www.spigotmc.org/resources/1-9-1-19-custom-recipes-and-crafting-craftenhance.65058/ or https://dev.bukkit.org/projects/craftenhance/files.
+[18:07:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@2198f197[id=e9f09dfe-3bf8-373a-90ca-0ba619b5c396,name=Peparad_Hranolky,properties={},legacy=false] (/127.118.132.33:56873) lost connection: Disconnected
+[18:07:33] [User Authenticator #0/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
+[18:07:35] [Server thread/INFO]: Sorry, Console-commands are not supported yet!
+[18:07:40] [Server thread/INFO]: Sorry, Console-commands are not supported yet!
+[18:07:41] [Server thread/INFO]: Sorry, Console-commands are not supported yet!
+[18:07:44] [User Authenticator #0/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
+[18:07:44] [Server thread/INFO]: Peparad_Hranolky joined the game
+[18:07:44] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:41969] logged in with entity id 12 at ([world]580.6896945923515, 46.0, -81.69999998807907)
+[18:07:46] [User Authenticator #0/INFO]: UUID of player Brambora25 is e7a0f11f-5e45-3074-ba98-dfa07a574cfc
+[18:07:46] [Server thread/INFO]: Brambora25 joined the game
+[18:07:46] [Server thread/INFO]: Brambora25[/127.153.124.185:60497] logged in with entity id 141 at ([world]-2281.9642767728947, 62.07326432466506, 814.3523989308515)
+[18:08:01] [Server thread/INFO]: Peparad_Hranolky was shot by Skeleton
+[18:08:04] [Async Chat Thread - #1/INFO]: [Not Secure] <Peparad_Hranolky> oh
+[18:08:05] [Async Chat Thread - #0/INFO]: [Not Secure] <Brambora25> f
+[18:08:15] [Server thread/INFO]: [Not Secure] [Server] use SpawnProtect command to set spawn protection
+[18:08:20] [Async Chat Thread - #0/INFO]: [Not Secure] <Peparad_Hranolky> aight
+[18:08:21] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
+[18:08:21] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
+[18:08:27] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect
+[18:08:52] [Server thread/INFO]: [Not Secure] [Server] If you need anythign else just ping me on discord
+[18:08:55] [Async Chat Thread - #1/INFO]: [Not Secure] <Peparad_Hranolky> ok
+[18:09:20] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect setnw
+[18:09:28] [Server thread/INFO]: Brambora25 has made the advancement [Isn't It Iron Pick]
+[18:09:39] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect setse
+[18:09:42] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
+[18:09:42] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
+[18:09:46] [User Authenticator #1/INFO]: UUID of player chickenwing_520 is b1aa9650-6618-38f4-9004-cc913b84c3de
+[18:09:46] [Server thread/INFO]: chickenwing_520 joined the game
+[18:09:47] [Server thread/INFO]: chickenwing_520[/127.143.172.194:57399] logged in with entity id 1879 at ([world]342.30000001192093, 64.0, -223.4206469511387)
+[18:10:08] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect enable
+[18:10:12] [Server thread/INFO]: Peparad_Hranolky issued server command: /kill chickenwing_520
+[18:10:12] [Server thread/INFO]: chickenwing_520 fell out of the world
+[18:10:13] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
+[18:10:13] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
+[18:10:20] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
+[18:10:20] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
+[18:10:30] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
+[18:10:30] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
+[18:10:35] [Server thread/INFO]: Brambora25 has made the advancement [Diamonds!]
+[18:11:15] [Server thread/INFO]: Peparad_Hranolky issued server command: /deop Peparad_Hranolky
+[18:11:15] [Server thread/INFO]: [Peparad_Hranolky: Made Peparad_Hranolky no longer a server operator]
+[18:11:26] [Server thread/INFO]: chickenwing_520 issued server command: /op Peparad_Hranolky
+[18:11:26] [Server thread/INFO]: [chickenwing_520: Made Peparad_Hranolky a server operator]
+[18:11:36] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
+[18:11:36] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
+[18:11:37] [Server thread/INFO]: Peparad_Hranolky issued server command: /deop Peparad_Hranolky
+[18:11:37] [Server thread/INFO]: [Peparad_Hranolky: Made Peparad_Hranolky no longer a server operator]
+[18:11:45] [Server thread/INFO]: chickenwing_520 issued server command: /op Peparad_Hranolky
+[18:11:45] [Server thread/INFO]: [chickenwing_520: Made Peparad_Hranolky a server operator]
+[18:11:56] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect setspawn
+[18:12:04] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect setspawn
+[18:12:09] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
+[18:12:09] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
+[18:12:44] [Async Chat Thread - #2/INFO]: [Not Secure] <chickenwing_520> co mas
+[18:12:51] [Server thread/INFO]: Peparad_Hranolky issued server command: /clear chickenwing_520
+[18:13:04] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect setnw
+[18:13:09] [Server thread/INFO]: Peparad_Hranolky issued server command: /clear chickenwing_520
+[18:13:09] [Server thread/INFO]: [Peparad_Hranolky: Removed 3 items from player chickenwing_520]
+[18:13:26] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect setse
+[18:13:28] [Server thread/INFO]: Brambora25 has made the advancement [Stone Age]
+[18:13:37] [Server thread/INFO]: chickenwing_520 issued server command: /give chickenwing_520 minecraft:birch_log 4
+[18:14:35] [Server thread/INFO]: Brambora25 has made the advancement [Hot Stuff]
+[18:14:42] [Async Chat Thread - #4/INFO]: [Not Secure] <chickenwing_520> bbitch
+[18:14:47] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect editspawn
+[18:14:52] [Server thread/INFO]: chickenwing_520 has made the advancement [Getting an Upgrade]
+[18:15:30] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode spectator
+[18:15:30] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Spectator Mode]
+[18:15:40] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
+[18:15:40] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
+[18:15:45] [Server thread/INFO]: chickenwing_520 issued server command: /gamemode survival
+[18:15:57] [Server thread/INFO]: chickenwing_520 issued server command: /kick Peparad_Hranolky kokot
+[18:15:57] [Server thread/INFO]: Peparad_Hranolky lost connection: kokot
+[18:15:57] [Server thread/INFO]: Peparad_Hranolky left the game
+[18:15:57] [Server thread/INFO]: [chickenwing_520: Kicked Peparad_Hranolky: kokot]
+[18:17:08] [Async Chat Thread - #6/INFO]: [Not Secure] <Brambora25> bye
+[18:17:14] [Server thread/INFO]: Brambora25 has made the advancement [We Need to Go Deeper]
+[18:17:19] [Async Chat Thread - #7/INFO]: [Not Secure] <chickenwing_520> why
+[18:17:36] [Async Chat Thread - #6/INFO]: [Not Secure] <Brambora25> ja to hrozne speedranuju
+[18:18:10] [User Authenticator #2/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
+[18:18:10] [Server thread/INFO]: Peparad_Hranolky joined the game
+[18:18:10] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:59629] logged in with entity id 8263 at ([world]307.11948329307995, 72.0, -276.95246390605945)
+[18:18:45] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
+[18:18:45] [Server thread/INFO]: Peparad_Hranolky left the game
+[18:19:40] [Async Chat Thread - #8/INFO]: [Not Secure] <Brambora25> seed??
+[18:19:45] [Server thread/INFO]: chickenwing_520 issued server command: /seed
+[18:19:48] [Async Chat Thread - #9/INFO]: [Not Secure] <chickenwing_520> 1332859798380098931
+[18:20:05] [Async Chat Thread - #8/INFO]: [Not Secure] <Brambora25> posles na dc
+[18:20:09] [Async Chat Thread - #9/INFO]: [Not Secure] <Brambora25> pls
+[18:20:10] [Async Chat Thread - #8/INFO]: [Not Secure] <chickenwing_520> a nevim
+[18:20:18] [Async Chat Thread - #9/INFO]: [Not Secure] <chickenwing_520> zeptej se toba
+[18:20:27] [Async Chat Thread - #8/INFO]: [Not Secure] <Brambora25> nebo dej ./seed
+[18:20:35] [User Authenticator #3/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
+[18:20:35] [Server thread/INFO]: Peparad_Hranolky joined the game
+[18:20:35] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:53631] logged in with entity id 10583 at ([world]292.1834233802834, 71.19366615334314, -233.52368390372612)
+[18:20:37] [Async Chat Thread - #9/INFO]: [Not Secure] <chickenwing_520> to jsem u delal
+[18:20:43] [Server thread/INFO]: Peparad_Hranolky issued server command: /plugman load worldguard-bukkit-7.0.7-dist
+[18:20:43] [Server thread/WARN]: [WorldGuard] Loaded class com.sk89q.minecraft.util.commands.CommandsManager from WorldEdit v7.2.13+46576cc which is not a depend or softdepend of this plugin.
+[18:20:43] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
+[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
+[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[18:20:43] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[18:20:43] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[18:20:43] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[18:20:43] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[18:20:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[18:20:43] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[18:20:43] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[18:20:43] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[18:20:43] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[18:20:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[18:20:43] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[18:20:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[18:20:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[18:20:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[18:20:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[18:20:43] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:20:44] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
+[18:20:44] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
+[18:20:44] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:20:44] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
+[18:20:46] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
+[18:20:46] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
+[18:20:48] [Async Chat Thread - #8/INFO]: [Not Secure] <Brambora25> nebo nic nepotrebuju
+[18:20:49] [Async Chat Thread - #9/INFO]: [Not Secure] <chickenwing_520> tobe muzu poslad seed na dc?
+[18:20:52] [Async Chat Thread - #9/INFO]: [Not Secure] <Peparad_Hranolky> muzes
+[18:20:56] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode spectator
+[18:20:56] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Spectator Mode]
+[18:21:02] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
+[18:21:02] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
+[18:21:30] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
+[18:21:30] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
+[18:21:33] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode spectator
+[18:21:33] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Spectator Mode]
+[18:21:38] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
+[18:21:38] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
+[18:21:40] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
+[18:21:40] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
+[18:27:52] [Server thread/INFO]: chickenwing_520 has made the advancement [Acquire Hardware]
+[18:30:19] [Server thread/INFO]: chickenwing_520 lost connection: Disconnected
+[18:30:19] [Server thread/INFO]: chickenwing_520 left the game
+[18:30:50] [Server thread/INFO]: Seed: [1332859798380098931]
+[18:37:40] [Async Chat Thread - #10/INFO]: [Not Secure] <Brambora25> lag
+[18:44:23] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
+[18:44:23] [Server thread/INFO]: Peparad_Hranolky left the game
+[18:57:49] [User Authenticator #4/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
+[18:57:49] [Server thread/INFO]: Peparad_Hranolky joined the game
+[18:57:49] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:33495] logged in with entity id 131282 at ([world]290.7917989413383, 91.28664635683843, -282.51808604115655)
+[18:57:53] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode spectator
+[18:57:53] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Spectator Mode]
+[18:57:56] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp Brambora25
+[18:58:05] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
+[18:58:05] [Server thread/INFO]: Peparad_Hranolky left the game
+[18:58:33] [Server thread/INFO]: Brambora25 has made the advancement [What a Deal!]
+[18:59:11] [Server thread/INFO]: Brambora25 has made the advancement [Tactical Fishing]
+[19:03:25] [Server thread/INFO]: Brambora25 has made the advancement [Suit Up]
+[19:06:49] [Server thread/INFO]: Brambora25 has made the advancement [Monster Hunter]
+[19:22:20] [Server thread/INFO]: Brambora25 has made the advancement [Not Today, Thank You]
+[19:27:12] [User Authenticator #5/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
+[19:27:12] [Server thread/INFO]: Peparad_Hranolky joined the game
+[19:27:12] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:58507] logged in with entity id 135706 at ([world]-1634.3380702519364, 107.24086736231571, 1311.7851836633345)
+[19:27:16] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode spectator
+[19:27:16] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Spectator Mode]
+[19:27:19] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp Brambora25
+[19:27:36] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
+[19:27:36] [Server thread/INFO]: Peparad_Hranolky left the game
+[19:34:10] [User Authenticator #6/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
+[19:34:10] [Server thread/INFO]: Peparad_Hranolky joined the game
+[19:34:10] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:49797] logged in with entity id 137523 at ([world]-1231.4749500729606, -1.9999187654240913, 828.8909635812887)
+[19:34:12] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
+[19:34:12] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
+[19:34:24] [Server thread/INFO]: Brambora25 fell from a high place
+[19:34:38] [Async Chat Thread - #12/INFO]: [Not Secure] <Peparad_Hranolky> TVUJ BRATR MI VOLAL A PAK SE ODPOJIL
+[19:34:46] [Async Chat Thread - #13/INFO]: [Not Secure] <Peparad_Hranolky> REKNI MU ZE JE TO BEZNOHY NIGE
+[19:34:53] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode spectator
+[19:34:53] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Spectator Mode]
+[19:34:56] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp Brambora25
+[19:35:00] [User Authenticator #6/INFO]: UUID of player MinTea45 is a900cf17-896d-3365-a61e-1c8e12275bfd
+[19:35:01] [Server thread/INFO]: MinTea45 joined the game
+[19:35:01] [Server thread/INFO]: MinTea45[/127.53.129.67:60291] logged in with entity id 138025 at ([world]313.494092366722, 71.0, -237.5908356346969)
+[19:35:05] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
+[19:35:06] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
+[19:35:06] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
+[19:35:35] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
+[19:35:35] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
+[19:35:44] [Server thread/INFO]: Peparad_Hranolky issued server command: /clear MinTea45
+[19:35:44] [Server thread/INFO]: [Peparad_Hranolky: Removed 64 items from player MinTea45]
+[19:35:45] [Async Chat Thread - #14/INFO]: [Not Secure] <Brambora25> picoooo
+[19:35:45] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
+[19:35:45] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
+[19:35:57] [Async Chat Thread - #13/INFO]: [Not Secure] <Peparad_Hranolky> co tati?
+[19:36:06] [Async Chat Thread - #14/INFO]: [Not Secure] <Brambora25> tri stacky ironu a 15 dia)
+[19:36:10] [Async Chat Thread - #13/INFO]: [Not Secure] <Peparad_Hranolky> co s tim?
+[19:36:11] [Async Chat Thread - #13/INFO]: [Not Secure] <Brambora25> v pici
+[19:36:17] [Async Chat Thread - #13/INFO]: [Not Secure] <Peparad_Hranolky> jakto?
+[19:36:20] [Async Chat Thread - #14/INFO]: [Not Secure] <Brambora25> no umrel sem zejo
+[19:36:21] [Async Chat Thread - #14/INFO]: [Not Secure] <Peparad_Hranolky> oh
+[19:36:27] [Async Chat Thread - #14/INFO]: [Not Secure] <Peparad_Hranolky> chceš tam portnout?
+[19:36:43] [Server thread/INFO]: Peparad_Hranolky issued server command: /give Brambora25 minecraft:iron_ingot 192
+[19:36:47] [Server thread/INFO]: Peparad_Hranolky issued server command: /give Brambora25 minecraft:diamond 15
+[19:36:54] [Async Chat Thread - #14/INFO]: [Not Secure] <Brambora25> ty ses god
+[19:36:56] [Async Chat Thread - #13/INFO]: [Not Secure] <Peparad_Hranolky> ok
+[19:37:00] [Async Chat Thread - #13/INFO]: [Not Secure] <Brambora25> top
+[19:37:08] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
+[19:37:23] [Server thread/INFO]: Peparad_Hranolky fell from a high place
+[19:37:25] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
+[19:37:25] [Server thread/WARN]: Peparad_Hranolky moved too quickly! -68.15190097088399,32.231523797587016,132.80000001192093
+[19:37:38] [Server thread/INFO]: Peparad_Hranolky issued server command: /weather clear
+[19:37:38] [Server thread/INFO]: [Peparad_Hranolky: Set the weather to clear]
+[19:38:56] [Server thread/INFO]: MinTea45 has made the advancement [Stone Age]
+[19:39:07] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
+[19:39:20] [Server thread/INFO]: MinTea45 has made the advancement [Getting an Upgrade]
+[19:40:31] [Server thread/INFO]: Brambora25 has made the advancement [A Seedy Place]
+[19:41:41] [Server thread/INFO]: Peparad_Hranolky issued server command: /give MinTea45 minecraft:baked_potato 32
+[19:41:45] [Server thread/INFO]: Peparad_Hranolky issued server command: /give Peparad_Hranolky minecraft:baked_potato 32
+[19:42:32] [Server thread/INFO]: MinTea45 has made the advancement [Acquire Hardware]
+[19:42:54] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamerule playersSleepingPercentage 0
+[19:42:54] [Server thread/INFO]: [Peparad_Hranolky: Gamerule playersSleepingPercentage is now set to: 0]
+[19:42:59] [Async Chat Thread - #15/INFO]: [Not Secure] <Peparad_Hranolky> spat?
+[19:43:12] [Async Chat Thread - #16/INFO]: [Not Secure] <Brambora25> muzu
+[19:43:17] [Server thread/INFO]: Brambora25 has made the advancement [Sweet Dreams]
+[19:43:25] [Server thread/INFO]: MinTea45 has made the advancement [Monster Hunter]
+[19:52:13] [Server thread/INFO]: MinTea45 has made the advancement [Isn't It Iron Pick]
+[19:52:25] [Server thread/INFO]: Peparad_Hranolky issued server command: /pl
+[19:58:10] [Async Chat Thread - #17/INFO]: [Not Secure] <Peparad_Hranolky> Franto co děláš?
+[19:58:17] [Async Chat Thread - #17/INFO]: [Not Secure] <Brambora25> hrajkam si
+[19:58:24] [Async Chat Thread - #17/INFO]: [Not Secure] <Peparad_Hranolky> ty si honíš?
+[19:59:02] [Server thread/WARN]: Boat (vehicle of MinTea45) moved wrongly! 0.46992753866582676
+[19:59:02] [Server thread/WARN]: Boat (vehicle of MinTea45) moved wrongly! 0.46992753866582676
+[20:04:04] [Server thread/INFO]: MinTea45 has made the advancement [Hot Stuff]
+[20:04:09] [Async Chat Thread - #19/INFO]: [Not Secure] <Peparad_Hranolky> výpečky se zelim
+[20:05:04] [Server thread/INFO]: There are 3 of a max of 20 players online: Brambora25, MinTea45, Peparad_Hranolky
+[20:06:26] [Server thread/INFO]: MinTea45 has made the advancement [We Need to Go Deeper]
+[20:09:11] [Server thread/INFO]: [Not Secure] [Server] In 10 minutes I will be restarting the server
+[20:09:19] [Async Chat Thread - #21/INFO]: [Not Secure] <MinTea45> ok
+[20:09:24] [Async Chat Thread - #21/INFO]: [Not Secure] <Brambora25> treba where noc
+[20:10:05] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamerule doDaylightCycle false
+[20:10:05] [Server thread/INFO]: [Peparad_Hranolky: Gamerule doDaylightCycle is now set to: false]
+[20:10:09] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamerule doDaylightCycle true
+[20:10:09] [Server thread/INFO]: [Peparad_Hranolky: Gamerule doDaylightCycle is now set to: true]
+[20:10:14] [Async Chat Thread - #21/INFO]: [Not Secure] <Peparad_Hranolky> Jo ja taky nevim
+[20:10:23] [Async Chat Thread - #22/INFO]: [Not Secure] <Peparad_Hranolky> ja sem omylem zapl aby se to nemnenilo
+[20:10:27] [Server thread/INFO]: Peparad_Hranolky issued server command: /time set night
+[20:10:27] [Server thread/INFO]: [Peparad_Hranolky: Set the time to 13000]
+[20:10:36] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
+[20:12:45] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
+[20:12:45] [Server thread/WARN]: Peparad_Hranolky moved too quickly! -80.55540810396451,0.41999998688697815,8.39043024685975
+[20:13:59] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
+[20:13:59] [Server thread/WARN]: Peparad_Hranolky moved too quickly! -213.1462337908124,20.0,104.55114227770582
+[20:17:38] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
+[20:17:38] [Server thread/INFO]: Peparad_Hranolky left the game
+[20:18:59] [Server thread/INFO]: [Not Secure] [Server] Server restarting in 2 mins!
+[20:19:00] [User Authenticator #7/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
+[20:19:00] [Server thread/INFO]: Peparad_Hranolky joined the game
+[20:19:00] [Server thread/INFO]: Peparad_Hranolky[/94.199.195.39:52554] logged in with entity id 166931 at ([world]-1974.3349195601468, 69.0, 2239.59693054528)
+[20:19:18] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
+[20:20:54] [Async Chat Thread - #24/INFO]: [Not Secure] <Peparad_Hranolky> Hej napadlo nás že bych se znovu pokusil udělat 1.19.3 minecraft earth server
+[20:21:17] [Async Chat Thread - #26/INFO]: [Not Secure] <Brambora25> je mi to jedno
+[20:22:09] [Server thread/INFO]: [Not Secure] [Server] Server restarting!
+[20:22:16] [Server thread/INFO]: Stopping the server
+[20:22:16] [Server thread/INFO]: Stopping server
+[20:22:16] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
+[20:22:16] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[20:22:16] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.0
+[20:22:16] [Server thread/INFO]: [ExecutableItems] Disabling ExecutableItems v5.9.15
+[20:22:16] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b612
+[20:22:16] [Server thread/INFO]: [CraftEnhance] Disabling CraftEnhance v2.5.2
+[20:22:16] [Worker-Main-1/INFO]: Loaded 7 recipes
+[20:22:17] [Server thread/INFO]: [SpawnProtect] Disabling SpawnProtect v1.3.3
+[20:22:17] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.13+46576cc
+[20:22:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[20:22:17] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.58
+[20:22:17] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[20:22:17] [Server thread/INFO]: [LuckPerms] Closing storage...
+[20:22:17] [Server thread/INFO]: [LuckPerms] Goodbye!
+[20:22:17] [Server thread/INFO]: Saving players
+[20:22:17] [Server thread/INFO]: Brambora25 lost connection: Server closed
+[20:22:17] [Server thread/INFO]: Brambora25 left the game
+[20:22:17] [Server thread/INFO]: MinTea45 lost connection: Server closed
+[20:22:17] [Server thread/INFO]: MinTea45 left the game
+[20:22:17] [Server thread/INFO]: Peparad_Hranolky lost connection: Server closed
+[20:22:17] [Server thread/INFO]: Peparad_Hranolky left the game
+[20:22:17] [Server thread/INFO]: Saving worlds
+[20:22:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:22:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:22:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:22:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Saved 1718 block chunks, 1064 entity chunks, 2 poi chunks in world 'world' in 1.60s
+[20:22:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:22:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Saved 617 block chunks, 58 entity chunks, 0 poi chunks in world 'world_nether' in 0.15s
+[20:22:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:22:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[20:22:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:22:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:22:19] [Server thread/INFO]: Flushing Chunk IO
+[20:22:19] [Server thread/INFO]: Closing Thread Pool
+[20:22:19] [Server thread/INFO]: Closing Server
