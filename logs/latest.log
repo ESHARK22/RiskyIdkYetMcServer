@@ -1,415 +1,86 @@
-[18:07:07] [ServerMain/INFO]: Building unoptimized datafixer
-[18:07:08] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:07:10] [ServerMain/INFO]: Loaded 7 recipes
-[18:07:11] [Server thread/INFO]: Starting minecraft server version 1.19.3
-[18:07:11] [Server thread/INFO]: Loading properties
-[18:07:11] [Server thread/INFO]: This server is running Paper version git-Paper-377 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 5aee09d)
-[18:07:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:07:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:07:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[18:07:11] [Server thread/INFO]: Default game type: SURVIVAL
-[18:07:11] [Server thread/INFO]: Generating keypair
-[18:07:12] [Server thread/INFO]: Starting Minecraft server on *:51430
-[18:07:12] [Server thread/INFO]: Using epoll channel type
-[18:07:12] [Server thread/INFO]: Paper: Using libdeflate (Linux aarch64) compression from Velocity.
-[18:07:12] [Server thread/INFO]: Paper: Using OpenSSL (Linux aarch64) cipher from Velocity.
-[18:07:12] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[18:07:18] [Server thread/WARN]: Legacy plugin SpawnProtect v1.3.3 does not specify an api-version.
-[18:07:18] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.58
-[18:07:18] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.13+46576cc
-[18:07:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@40a570c5]
-[18:07:19] [Server thread/INFO]: [SpawnProtect] Loading SpawnProtect v1.3.3
-[18:07:19] [Server thread/INFO]: [WildChests] Loading WildChests v2022.7
-[18:07:19] [Server thread/INFO]: [WildChests] Data version: 3218
-[18:07:19] [Server thread/INFO]: [WildChests] The plugin doesn't support your minecraft version.
-[18:07:19] [Server thread/INFO]: [WildChests] Please try a different version.
-[18:07:19] [Server thread/INFO]: [CraftEnhance] Loading CraftEnhance v2.5.2
-[18:07:19] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.0.0-SNAPSHOT-b612
-[18:07:20] [Server thread/INFO]: [WildTools] Loading WildTools v2022.7
-[18:07:20] [Server thread/INFO]: [WildTools] Data version: 3218
-[18:07:20] [Server thread/INFO]: [WildTools] &cThe plugin doesn't support your minecraft version.
-[18:07:20] [Server thread/INFO]: [WildTools] &cPlease try a different version.
-[18:07:20] [Server thread/INFO]: [SCore] Loading SCore v3.9.15
-[18:07:20] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v5.9.15
-[18:07:20] [Server thread/INFO]: [PlugManX] Loading PlugManX v2.3.0
-[18:07:20] [Server thread/INFO]: true
-[18:07:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:07:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.58
-[18:07:21] [Server thread/INFO]:         __    
-[18:07:21] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.58
-[18:07:21] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[18:07:21] [Server thread/INFO]: 
-[18:07:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[18:07:21] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[18:07:22] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[18:07:22] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[18:07:22] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1681ms)
-[18:07:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
-[18:07:22] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[18:07:22] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[18:07:22] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R2.PaperweightAdapter as the Bukkit adapter
-[18:07:24] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b612
-[18:07:24] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.0
-[18:07:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:07:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:07:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:07:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:07:24] [Server thread/INFO]: Preparing level "world"
-[18:07:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:07:25] [Server thread/INFO]: Time elapsed: 121 ms
-[18:07:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:07:25] [Server thread/INFO]: Time elapsed: 38 ms
-[18:07:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:07:25] [Server thread/INFO]: Time elapsed: 31 ms
-[18:07:25] [Server thread/INFO]: [SpawnProtect] Enabling SpawnProtect v1.3.3*
-[18:07:25] [Server thread/INFO]: [WildChests] Enabling WildChests v2022.7
-[18:07:25] [Server thread/INFO]: [CraftEnhance] Enabling CraftEnhance v2.5.2
-[18:07:25] [Server thread/INFO]: [CraftEnhance] Now starting MenuApi. Any errors will be shown below.
-[18:07:25] [Server thread/WARN]: [CraftEnhance] Is untested on never minecraft versions an 1.18.2
-[18:07:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_19_R2' loaded!
-[18:07:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
-[18:07:26] [Thread-9/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
-[18:07:26] [Server thread/INFO]: [CraftEnhance] CraftEnhance is managed and developed by DutchJelly.
-[18:07:26] [Server thread/INFO]: [CraftEnhance] If you find a bug in the plugin, please report it to https://github.com/DutchJelly/CraftEnhance/issues.
-[18:07:26] [Server thread/INFO]: [CraftEnhance] Running a version check to check that the server is compatible with game version 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19.
-[18:07:26] [Server thread/INFO]: [CraftEnhance] The correct version is installed.
-[18:07:26] [Server thread/INFO]: [WildTools] Enabling WildTools v2022.7
-[18:07:26] [Server thread/INFO]: [WildTools] Disabling WildTools v2022.7
-[18:07:26] [Server thread/INFO]: [SCore] Enabling SCore v3.9.15
-[18:07:26] [Server thread/INFO]: ================ SCore ================
-[18:07:26] [Server thread/INFO]: SCore Version of the server git-Paper-377 (MC: 1.19.3) !
-[18:07:26] [Server thread/INFO]: SCore ExecutableItems hooked !
-[18:07:26] [Server thread/INFO]: SCore ProtocolLib hooked !
-[18:07:26] [Server thread/INFO]: SCore Locale setup: EN
-[18:07:26] [Server thread/INFO]: SCore Language setup on EN
-[18:07:26] [Server thread/INFO]: SCore onnection to the db...
-[18:07:26] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
-[18:07:26] [Server thread/INFO]: SCore Creating table Commands if not exists...
-[18:07:26] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
-[18:07:26] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
-[18:07:26] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
-[18:07:26] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
-[18:07:26] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
-[18:07:27] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
-[18:07:27] [Server thread/INFO]: ================ SCore ================
-[18:07:27] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v5.9.15
-[18:07:27] [Server thread/INFO]: ================ ExecutableItems ================
-[18:07:27] [Server thread/ERROR]: [ExecutableItems] Invalid world: myWorld in the option disableItemsPerWorld
-[18:07:27] [Server thread/ERROR]: [ExecutableItems] Invalid world: myWorld2 in the option disableItemsPerWorld
-[18:07:30] [Server thread/INFO]: ================ ExecutableItems ================
-[18:07:30] [Server thread/INFO]: Starting GS4 status listener
-[18:07:30] [Server thread/INFO]: Thread Query Listener started
-[18:07:30] [Query Listener #1/INFO]: Query running on 0.0.0.0:51430
-[18:07:30] [Server thread/INFO]: Running delayed init tasks
-[18:07:30] [Server thread/INFO]: Done (19.030s)! For help, type "help"
-[18:07:30] [Server thread/INFO]: Timings Reset
-[18:07:30] [Craft Scheduler Thread - 3 - CraftEnhance/INFO]: [CraftEnhance] There's a new version (2.4.4) of the plugin available on https://www.spigotmc.org/resources/1-9-1-19-custom-recipes-and-crafting-craftenhance.65058/ or https://dev.bukkit.org/projects/craftenhance/files.
-[18:07:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@2198f197[id=e9f09dfe-3bf8-373a-90ca-0ba619b5c396,name=Peparad_Hranolky,properties={},legacy=false] (/127.118.132.33:56873) lost connection: Disconnected
-[18:07:33] [User Authenticator #0/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
-[18:07:35] [Server thread/INFO]: Sorry, Console-commands are not supported yet!
-[18:07:40] [Server thread/INFO]: Sorry, Console-commands are not supported yet!
-[18:07:41] [Server thread/INFO]: Sorry, Console-commands are not supported yet!
-[18:07:44] [User Authenticator #0/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
-[18:07:44] [Server thread/INFO]: Peparad_Hranolky joined the game
-[18:07:44] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:41969] logged in with entity id 12 at ([world]580.6896945923515, 46.0, -81.69999998807907)
-[18:07:46] [User Authenticator #0/INFO]: UUID of player Brambora25 is e7a0f11f-5e45-3074-ba98-dfa07a574cfc
-[18:07:46] [Server thread/INFO]: Brambora25 joined the game
-[18:07:46] [Server thread/INFO]: Brambora25[/127.153.124.185:60497] logged in with entity id 141 at ([world]-2281.9642767728947, 62.07326432466506, 814.3523989308515)
-[18:08:01] [Server thread/INFO]: Peparad_Hranolky was shot by Skeleton
-[18:08:04] [Async Chat Thread - #1/INFO]: [Not Secure] <Peparad_Hranolky> oh
-[18:08:05] [Async Chat Thread - #0/INFO]: [Not Secure] <Brambora25> f
-[18:08:15] [Server thread/INFO]: [Not Secure] [Server] use SpawnProtect command to set spawn protection
-[18:08:20] [Async Chat Thread - #0/INFO]: [Not Secure] <Peparad_Hranolky> aight
-[18:08:21] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[18:08:21] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[18:08:27] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect
-[18:08:52] [Server thread/INFO]: [Not Secure] [Server] If you need anythign else just ping me on discord
-[18:08:55] [Async Chat Thread - #1/INFO]: [Not Secure] <Peparad_Hranolky> ok
-[18:09:20] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect setnw
-[18:09:28] [Server thread/INFO]: Brambora25 has made the advancement [Isn't It Iron Pick]
-[18:09:39] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect setse
-[18:09:42] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
-[18:09:42] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
-[18:09:46] [User Authenticator #1/INFO]: UUID of player chickenwing_520 is b1aa9650-6618-38f4-9004-cc913b84c3de
-[18:09:46] [Server thread/INFO]: chickenwing_520 joined the game
-[18:09:47] [Server thread/INFO]: chickenwing_520[/127.143.172.194:57399] logged in with entity id 1879 at ([world]342.30000001192093, 64.0, -223.4206469511387)
-[18:10:08] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect enable
-[18:10:12] [Server thread/INFO]: Peparad_Hranolky issued server command: /kill chickenwing_520
-[18:10:12] [Server thread/INFO]: chickenwing_520 fell out of the world
-[18:10:13] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[18:10:13] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[18:10:20] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
-[18:10:20] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
-[18:10:30] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[18:10:30] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[18:10:35] [Server thread/INFO]: Brambora25 has made the advancement [Diamonds!]
-[18:11:15] [Server thread/INFO]: Peparad_Hranolky issued server command: /deop Peparad_Hranolky
-[18:11:15] [Server thread/INFO]: [Peparad_Hranolky: Made Peparad_Hranolky no longer a server operator]
-[18:11:26] [Server thread/INFO]: chickenwing_520 issued server command: /op Peparad_Hranolky
-[18:11:26] [Server thread/INFO]: [chickenwing_520: Made Peparad_Hranolky a server operator]
-[18:11:36] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
-[18:11:36] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
-[18:11:37] [Server thread/INFO]: Peparad_Hranolky issued server command: /deop Peparad_Hranolky
-[18:11:37] [Server thread/INFO]: [Peparad_Hranolky: Made Peparad_Hranolky no longer a server operator]
-[18:11:45] [Server thread/INFO]: chickenwing_520 issued server command: /op Peparad_Hranolky
-[18:11:45] [Server thread/INFO]: [chickenwing_520: Made Peparad_Hranolky a server operator]
-[18:11:56] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect setspawn
-[18:12:04] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect setspawn
-[18:12:09] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[18:12:09] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[18:12:44] [Async Chat Thread - #2/INFO]: [Not Secure] <chickenwing_520> co mas
-[18:12:51] [Server thread/INFO]: Peparad_Hranolky issued server command: /clear chickenwing_520
-[18:13:04] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect setnw
-[18:13:09] [Server thread/INFO]: Peparad_Hranolky issued server command: /clear chickenwing_520
-[18:13:09] [Server thread/INFO]: [Peparad_Hranolky: Removed 3 items from player chickenwing_520]
-[18:13:26] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect setse
-[18:13:28] [Server thread/INFO]: Brambora25 has made the advancement [Stone Age]
-[18:13:37] [Server thread/INFO]: chickenwing_520 issued server command: /give chickenwing_520 minecraft:birch_log 4
-[18:14:35] [Server thread/INFO]: Brambora25 has made the advancement [Hot Stuff]
-[18:14:42] [Async Chat Thread - #4/INFO]: [Not Secure] <chickenwing_520> bbitch
-[18:14:47] [Server thread/INFO]: Peparad_Hranolky issued server command: /spawnprotect editspawn
-[18:14:52] [Server thread/INFO]: chickenwing_520 has made the advancement [Getting an Upgrade]
-[18:15:30] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode spectator
-[18:15:30] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Spectator Mode]
-[18:15:40] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
-[18:15:40] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
-[18:15:45] [Server thread/INFO]: chickenwing_520 issued server command: /gamemode survival
-[18:15:57] [Server thread/INFO]: chickenwing_520 issued server command: /kick Peparad_Hranolky kokot
-[18:15:57] [Server thread/INFO]: Peparad_Hranolky lost connection: kokot
-[18:15:57] [Server thread/INFO]: Peparad_Hranolky left the game
-[18:15:57] [Server thread/INFO]: [chickenwing_520: Kicked Peparad_Hranolky: kokot]
-[18:17:08] [Async Chat Thread - #6/INFO]: [Not Secure] <Brambora25> bye
-[18:17:14] [Server thread/INFO]: Brambora25 has made the advancement [We Need to Go Deeper]
-[18:17:19] [Async Chat Thread - #7/INFO]: [Not Secure] <chickenwing_520> why
-[18:17:36] [Async Chat Thread - #6/INFO]: [Not Secure] <Brambora25> ja to hrozne speedranuju
-[18:18:10] [User Authenticator #2/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
-[18:18:10] [Server thread/INFO]: Peparad_Hranolky joined the game
-[18:18:10] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:59629] logged in with entity id 8263 at ([world]307.11948329307995, 72.0, -276.95246390605945)
-[18:18:45] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
-[18:18:45] [Server thread/INFO]: Peparad_Hranolky left the game
-[18:19:40] [Async Chat Thread - #8/INFO]: [Not Secure] <Brambora25> seed??
-[18:19:45] [Server thread/INFO]: chickenwing_520 issued server command: /seed
-[18:19:48] [Async Chat Thread - #9/INFO]: [Not Secure] <chickenwing_520> 1332859798380098931
-[18:20:05] [Async Chat Thread - #8/INFO]: [Not Secure] <Brambora25> posles na dc
-[18:20:09] [Async Chat Thread - #9/INFO]: [Not Secure] <Brambora25> pls
-[18:20:10] [Async Chat Thread - #8/INFO]: [Not Secure] <chickenwing_520> a nevim
-[18:20:18] [Async Chat Thread - #9/INFO]: [Not Secure] <chickenwing_520> zeptej se toba
-[18:20:27] [Async Chat Thread - #8/INFO]: [Not Secure] <Brambora25> nebo dej ./seed
-[18:20:35] [User Authenticator #3/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
-[18:20:35] [Server thread/INFO]: Peparad_Hranolky joined the game
-[18:20:35] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:53631] logged in with entity id 10583 at ([world]292.1834233802834, 71.19366615334314, -233.52368390372612)
-[18:20:37] [Async Chat Thread - #9/INFO]: [Not Secure] <chickenwing_520> to jsem u delal
-[18:20:43] [Server thread/INFO]: Peparad_Hranolky issued server command: /plugman load worldguard-bukkit-7.0.7-dist
-[18:20:43] [Server thread/WARN]: [WorldGuard] Loaded class com.sk89q.minecraft.util.commands.CommandsManager from WorldEdit v7.2.13+46576cc which is not a depend or softdepend of this plugin.
-[18:20:43] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.7+216b061
-[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
-[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[18:20:43] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[18:20:43] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[18:20:43] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[18:20:43] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[18:20:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[18:20:43] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[18:20:43] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[18:20:43] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[18:20:43] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[18:20:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
-[18:20:43] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
-[18:20:43] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[18:20:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[18:20:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[18:20:43] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[18:20:43] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[18:20:43] [Server thread/INFO]: [WorldGuard] Loading region data...
-[18:20:44] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
-[18:20:44] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
-[18:20:44] [Server thread/INFO]: [WorldGuard] Loading region data...
-[18:20:44] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
-[18:20:46] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[18:20:46] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[18:20:48] [Async Chat Thread - #8/INFO]: [Not Secure] <Brambora25> nebo nic nepotrebuju
-[18:20:49] [Async Chat Thread - #9/INFO]: [Not Secure] <chickenwing_520> tobe muzu poslad seed na dc?
-[18:20:52] [Async Chat Thread - #9/INFO]: [Not Secure] <Peparad_Hranolky> muzes
-[18:20:56] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode spectator
-[18:20:56] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Spectator Mode]
-[18:21:02] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
-[18:21:02] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
-[18:21:30] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[18:21:30] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[18:21:33] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode spectator
-[18:21:33] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Spectator Mode]
-[18:21:38] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
-[18:21:38] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
-[18:21:40] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[18:21:40] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[18:27:52] [Server thread/INFO]: chickenwing_520 has made the advancement [Acquire Hardware]
-[18:30:19] [Server thread/INFO]: chickenwing_520 lost connection: Disconnected
-[18:30:19] [Server thread/INFO]: chickenwing_520 left the game
-[18:30:50] [Server thread/INFO]: Seed: [1332859798380098931]
-[18:37:40] [Async Chat Thread - #10/INFO]: [Not Secure] <Brambora25> lag
-[18:44:23] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
-[18:44:23] [Server thread/INFO]: Peparad_Hranolky left the game
-[18:57:49] [User Authenticator #4/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
-[18:57:49] [Server thread/INFO]: Peparad_Hranolky joined the game
-[18:57:49] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:33495] logged in with entity id 131282 at ([world]290.7917989413383, 91.28664635683843, -282.51808604115655)
-[18:57:53] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode spectator
-[18:57:53] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Spectator Mode]
-[18:57:56] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp Brambora25
-[18:58:05] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
-[18:58:05] [Server thread/INFO]: Peparad_Hranolky left the game
-[18:58:33] [Server thread/INFO]: Brambora25 has made the advancement [What a Deal!]
-[18:59:11] [Server thread/INFO]: Brambora25 has made the advancement [Tactical Fishing]
-[19:03:25] [Server thread/INFO]: Brambora25 has made the advancement [Suit Up]
-[19:06:49] [Server thread/INFO]: Brambora25 has made the advancement [Monster Hunter]
-[19:22:20] [Server thread/INFO]: Brambora25 has made the advancement [Not Today, Thank You]
-[19:27:12] [User Authenticator #5/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
-[19:27:12] [Server thread/INFO]: Peparad_Hranolky joined the game
-[19:27:12] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:58507] logged in with entity id 135706 at ([world]-1634.3380702519364, 107.24086736231571, 1311.7851836633345)
-[19:27:16] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode spectator
-[19:27:16] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Spectator Mode]
-[19:27:19] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp Brambora25
-[19:27:36] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
-[19:27:36] [Server thread/INFO]: Peparad_Hranolky left the game
-[19:34:10] [User Authenticator #6/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
-[19:34:10] [Server thread/INFO]: Peparad_Hranolky joined the game
-[19:34:10] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:49797] logged in with entity id 137523 at ([world]-1231.4749500729606, -1.9999187654240913, 828.8909635812887)
-[19:34:12] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[19:34:12] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[19:34:24] [Server thread/INFO]: Brambora25 fell from a high place
-[19:34:38] [Async Chat Thread - #12/INFO]: [Not Secure] <Peparad_Hranolky> TVUJ BRATR MI VOLAL A PAK SE ODPOJIL
-[19:34:46] [Async Chat Thread - #13/INFO]: [Not Secure] <Peparad_Hranolky> REKNI MU ZE JE TO BEZNOHY NIGE
-[19:34:53] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode spectator
-[19:34:53] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Spectator Mode]
-[19:34:56] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp Brambora25
-[19:35:00] [User Authenticator #6/INFO]: UUID of player MinTea45 is a900cf17-896d-3365-a61e-1c8e12275bfd
-[19:35:01] [Server thread/INFO]: MinTea45 joined the game
-[19:35:01] [Server thread/INFO]: MinTea45[/127.53.129.67:60291] logged in with entity id 138025 at ([world]313.494092366722, 71.0, -237.5908356346969)
-[19:35:05] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
-[19:35:06] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
-[19:35:06] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
-[19:35:35] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
-[19:35:35] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
-[19:35:44] [Server thread/INFO]: Peparad_Hranolky issued server command: /clear MinTea45
-[19:35:44] [Server thread/INFO]: [Peparad_Hranolky: Removed 64 items from player MinTea45]
-[19:35:45] [Async Chat Thread - #14/INFO]: [Not Secure] <Brambora25> picoooo
-[19:35:45] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode survival
-[19:35:45] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Survival Mode]
-[19:35:57] [Async Chat Thread - #13/INFO]: [Not Secure] <Peparad_Hranolky> co tati?
-[19:36:06] [Async Chat Thread - #14/INFO]: [Not Secure] <Brambora25> tri stacky ironu a 15 dia)
-[19:36:10] [Async Chat Thread - #13/INFO]: [Not Secure] <Peparad_Hranolky> co s tim?
-[19:36:11] [Async Chat Thread - #13/INFO]: [Not Secure] <Brambora25> v pici
-[19:36:17] [Async Chat Thread - #13/INFO]: [Not Secure] <Peparad_Hranolky> jakto?
-[19:36:20] [Async Chat Thread - #14/INFO]: [Not Secure] <Brambora25> no umrel sem zejo
-[19:36:21] [Async Chat Thread - #14/INFO]: [Not Secure] <Peparad_Hranolky> oh
-[19:36:27] [Async Chat Thread - #14/INFO]: [Not Secure] <Peparad_Hranolky> chceš tam portnout?
-[19:36:43] [Server thread/INFO]: Peparad_Hranolky issued server command: /give Brambora25 minecraft:iron_ingot 192
-[19:36:47] [Server thread/INFO]: Peparad_Hranolky issued server command: /give Brambora25 minecraft:diamond 15
-[19:36:54] [Async Chat Thread - #14/INFO]: [Not Secure] <Brambora25> ty ses god
-[19:36:56] [Async Chat Thread - #13/INFO]: [Not Secure] <Peparad_Hranolky> ok
-[19:37:00] [Async Chat Thread - #13/INFO]: [Not Secure] <Brambora25> top
-[19:37:08] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
-[19:37:23] [Server thread/INFO]: Peparad_Hranolky fell from a high place
-[19:37:25] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
-[19:37:25] [Server thread/WARN]: Peparad_Hranolky moved too quickly! -68.15190097088399,32.231523797587016,132.80000001192093
-[19:37:38] [Server thread/INFO]: Peparad_Hranolky issued server command: /weather clear
-[19:37:38] [Server thread/INFO]: [Peparad_Hranolky: Set the weather to clear]
-[19:38:56] [Server thread/INFO]: MinTea45 has made the advancement [Stone Age]
-[19:39:07] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
-[19:39:20] [Server thread/INFO]: MinTea45 has made the advancement [Getting an Upgrade]
-[19:40:31] [Server thread/INFO]: Brambora25 has made the advancement [A Seedy Place]
-[19:41:41] [Server thread/INFO]: Peparad_Hranolky issued server command: /give MinTea45 minecraft:baked_potato 32
-[19:41:45] [Server thread/INFO]: Peparad_Hranolky issued server command: /give Peparad_Hranolky minecraft:baked_potato 32
-[19:42:32] [Server thread/INFO]: MinTea45 has made the advancement [Acquire Hardware]
-[19:42:54] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamerule playersSleepingPercentage 0
-[19:42:54] [Server thread/INFO]: [Peparad_Hranolky: Gamerule playersSleepingPercentage is now set to: 0]
-[19:42:59] [Async Chat Thread - #15/INFO]: [Not Secure] <Peparad_Hranolky> spat?
-[19:43:12] [Async Chat Thread - #16/INFO]: [Not Secure] <Brambora25> muzu
-[19:43:17] [Server thread/INFO]: Brambora25 has made the advancement [Sweet Dreams]
-[19:43:25] [Server thread/INFO]: MinTea45 has made the advancement [Monster Hunter]
-[19:52:13] [Server thread/INFO]: MinTea45 has made the advancement [Isn't It Iron Pick]
-[19:52:25] [Server thread/INFO]: Peparad_Hranolky issued server command: /pl
-[19:58:10] [Async Chat Thread - #17/INFO]: [Not Secure] <Peparad_Hranolky> Franto co děláš?
-[19:58:17] [Async Chat Thread - #17/INFO]: [Not Secure] <Brambora25> hrajkam si
-[19:58:24] [Async Chat Thread - #17/INFO]: [Not Secure] <Peparad_Hranolky> ty si honíš?
-[19:59:02] [Server thread/WARN]: Boat (vehicle of MinTea45) moved wrongly! 0.46992753866582676
-[19:59:02] [Server thread/WARN]: Boat (vehicle of MinTea45) moved wrongly! 0.46992753866582676
-[20:04:04] [Server thread/INFO]: MinTea45 has made the advancement [Hot Stuff]
-[20:04:09] [Async Chat Thread - #19/INFO]: [Not Secure] <Peparad_Hranolky> výpečky se zelim
-[20:05:04] [Server thread/INFO]: There are 3 of a max of 20 players online: Brambora25, MinTea45, Peparad_Hranolky
-[20:06:26] [Server thread/INFO]: MinTea45 has made the advancement [We Need to Go Deeper]
-[20:09:11] [Server thread/INFO]: [Not Secure] [Server] In 10 minutes I will be restarting the server
-[20:09:19] [Async Chat Thread - #21/INFO]: [Not Secure] <MinTea45> ok
-[20:09:24] [Async Chat Thread - #21/INFO]: [Not Secure] <Brambora25> treba where noc
-[20:10:05] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamerule doDaylightCycle false
-[20:10:05] [Server thread/INFO]: [Peparad_Hranolky: Gamerule doDaylightCycle is now set to: false]
-[20:10:09] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamerule doDaylightCycle true
-[20:10:09] [Server thread/INFO]: [Peparad_Hranolky: Gamerule doDaylightCycle is now set to: true]
-[20:10:14] [Async Chat Thread - #21/INFO]: [Not Secure] <Peparad_Hranolky> Jo ja taky nevim
-[20:10:23] [Async Chat Thread - #22/INFO]: [Not Secure] <Peparad_Hranolky> ja sem omylem zapl aby se to nemnenilo
-[20:10:27] [Server thread/INFO]: Peparad_Hranolky issued server command: /time set night
-[20:10:27] [Server thread/INFO]: [Peparad_Hranolky: Set the time to 13000]
-[20:10:36] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
-[20:12:45] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
-[20:12:45] [Server thread/WARN]: Peparad_Hranolky moved too quickly! -80.55540810396451,0.41999998688697815,8.39043024685975
-[20:13:59] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
-[20:13:59] [Server thread/WARN]: Peparad_Hranolky moved too quickly! -213.1462337908124,20.0,104.55114227770582
-[20:17:38] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
-[20:17:38] [Server thread/INFO]: Peparad_Hranolky left the game
-[20:18:59] [Server thread/INFO]: [Not Secure] [Server] Server restarting in 2 mins!
-[20:19:00] [User Authenticator #7/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
-[20:19:00] [Server thread/INFO]: Peparad_Hranolky joined the game
-[20:19:00] [Server thread/INFO]: Peparad_Hranolky[/94.199.195.39:52554] logged in with entity id 166931 at ([world]-1974.3349195601468, 69.0, 2239.59693054528)
-[20:19:18] [Server thread/INFO]: Peparad_Hranolky issued server command: /tp MinTea45
-[20:20:54] [Async Chat Thread - #24/INFO]: [Not Secure] <Peparad_Hranolky> Hej napadlo nás že bych se znovu pokusil udělat 1.19.3 minecraft earth server
-[20:21:17] [Async Chat Thread - #26/INFO]: [Not Secure] <Brambora25> je mi to jedno
-[20:22:09] [Server thread/INFO]: [Not Secure] [Server] Server restarting!
-[20:22:16] [Server thread/INFO]: Stopping the server
-[20:22:16] [Server thread/INFO]: Stopping server
-[20:22:16] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
-[20:22:16] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[20:22:16] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.0
-[20:22:16] [Server thread/INFO]: [ExecutableItems] Disabling ExecutableItems v5.9.15
-[20:22:16] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b612
-[20:22:16] [Server thread/INFO]: [CraftEnhance] Disabling CraftEnhance v2.5.2
-[20:22:16] [Worker-Main-1/INFO]: Loaded 7 recipes
-[20:22:17] [Server thread/INFO]: [SpawnProtect] Disabling SpawnProtect v1.3.3
-[20:22:17] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.13+46576cc
-[20:22:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[20:22:17] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.58
-[20:22:17] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[20:22:17] [Server thread/INFO]: [LuckPerms] Closing storage...
-[20:22:17] [Server thread/INFO]: [LuckPerms] Goodbye!
-[20:22:17] [Server thread/INFO]: Saving players
-[20:22:17] [Server thread/INFO]: Brambora25 lost connection: Server closed
-[20:22:17] [Server thread/INFO]: Brambora25 left the game
-[20:22:17] [Server thread/INFO]: MinTea45 lost connection: Server closed
-[20:22:17] [Server thread/INFO]: MinTea45 left the game
-[20:22:17] [Server thread/INFO]: Peparad_Hranolky lost connection: Server closed
-[20:22:17] [Server thread/INFO]: Peparad_Hranolky left the game
-[20:22:17] [Server thread/INFO]: Saving worlds
-[20:22:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:22:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[20:22:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[20:22:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Saved 1718 block chunks, 1064 entity chunks, 2 poi chunks in world 'world' in 1.60s
-[20:22:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:22:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Saved 617 block chunks, 58 entity chunks, 0 poi chunks in world 'world_nether' in 0.15s
-[20:22:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:22:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[20:22:19] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[20:22:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:22:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:22:19] [Server thread/INFO]: Flushing Chunk IO
-[20:22:19] [Server thread/INFO]: Closing Thread Pool
-[20:22:19] [Server thread/INFO]: Closing Server
+[07:36:59] [User Authenticator #13/INFO]: UUID of player Brambora25 is e7a0f11f-5e45-3074-ba98-dfa07a574cfc
+[07:36:59] [Server thread/INFO]: Brambora25 joined the game
+[07:36:59] [Server thread/INFO]: Brambora25[/127.153.124.185:38647] logged in with entity id 26128 at ([world]-1536.3004748488136, 70.0, 1420.300000011921)
+[08:47:51] [Server thread/INFO]: Brambora25 lost connection: Disconnected
+[08:47:51] [Server thread/INFO]: Brambora25 left the game
+[08:58:08] [User Authenticator #14/INFO]: UUID of player xkoewasklx is 43e2a790-7dbd-3e53-811e-eb9652cea2b6
+[08:58:08] [Server thread/INFO]: xkoewasklx joined the game
+[08:58:08] [Server thread/INFO]: xkoewasklx[/127.153.124.185:54491] logged in with entity id 34804 at ([world]315.5, 71.0, -227.5)
+[08:58:55] [Server thread/INFO]: xkoewasklx lost connection: Disconnected
+[08:58:55] [Server thread/INFO]: xkoewasklx left the game
+[09:00:39] [User Authenticator #15/INFO]: UUID of player xkoewasklx is 43e2a790-7dbd-3e53-811e-eb9652cea2b6
+[09:00:39] [Server thread/INFO]: xkoewasklx joined the game
+[09:00:39] [Server thread/INFO]: xkoewasklx[/127.153.124.185:40927] logged in with entity id 35035 at ([world]321.1912327341774, 76.0, -198.8504510407872)
+[09:01:21] [Server thread/INFO]: xkoewasklx has made the advancement [Monster Hunter]
+[09:01:29] [Server thread/INFO]: xkoewasklx lost connection: Disconnected
+[09:01:29] [Server thread/INFO]: xkoewasklx left the game
+[09:14:07] [User Authenticator #16/INFO]: UUID of player Peparad_Hranolky is e9f09dfe-3bf8-373a-90ca-0ba619b5c396
+[09:14:07] [Server thread/INFO]: Peparad_Hranolky joined the game
+[09:14:07] [Server thread/INFO]: Peparad_Hranolky[/127.118.132.33:53177] logged in with entity id 35136 at ([world]-1652.657101651294, 71.0, 1385.0668249370092)
+[09:16:10] [Server thread/INFO]: Peparad_Hranolky hit the ground too hard whilst trying to escape Iron Golem
+[09:16:13] [Async Chat Thread - #8/INFO]: [Not Secure] <Peparad_Hranolky> bitch
+[09:16:29] [Server thread/INFO]: Peparad_Hranolky issued server command: /gamemode creative
+[09:16:29] [Server thread/INFO]: [Peparad_Hranolky: Set own game mode to Creative Mode]
+[09:16:43] [Server thread/INFO]: Peparad_Hranolky lost connection: Disconnected
+[09:16:43] [Server thread/INFO]: Peparad_Hranolky left the game
+[09:41:03] [User Authenticator #17/INFO]: UUID of player xkoewasklx is 43e2a790-7dbd-3e53-811e-eb9652cea2b6
+[09:41:03] [Server thread/INFO]: xkoewasklx joined the game
+[09:41:03] [Server thread/INFO]: xkoewasklx[/127.153.124.185:42375] logged in with entity id 36145 at ([world]258.69999998807907, 90.0, -185.30000001192093)
+[09:42:22] [Server thread/INFO]: xkoewasklx was blown up by Creeper
+[09:44:57] [Server thread/INFO]: xkoewasklx was shot by Skeleton
+[09:49:02] [Server thread/INFO]: xkoewasklx has made the advancement [Stone Age]
+[09:49:35] [Server thread/INFO]: xkoewasklx has made the advancement [Getting an Upgrade]
+[09:54:40] [Server thread/INFO]: xkoewasklx has made the advancement [Acquire Hardware]
+[09:56:46] [Server thread/INFO]: xkoewasklx was shot by Skeleton
+[10:01:01] [Server thread/INFO]: xkoewasklx has made the advancement [Isn't It Iron Pick]
+[10:02:09] [Server thread/INFO]: xkoewasklx fell from a high place
+[10:04:15] [Server thread/INFO]: xkoewasklx was blown up by Creeper
+[10:16:11] [Server thread/INFO]: xkoewasklx has made the advancement [Not Today, Thank You]
+[10:20:39] [Server thread/INFO]: xkoewasklx has made the advancement [Sweet Dreams]
+[10:24:12] [Server thread/INFO]: xkoewasklx lost connection: Disconnected
+[10:24:12] [Server thread/INFO]: xkoewasklx left the game
+[10:34:40] [User Authenticator #18/INFO]: UUID of player xkoewasklx is 43e2a790-7dbd-3e53-811e-eb9652cea2b6
+[10:34:40] [Server thread/INFO]: xkoewasklx joined the game
+[10:34:40] [Server thread/INFO]: xkoewasklx[/127.153.124.185:54949] logged in with entity id 43299 at ([world]241.78174130702638, 71.0, 180.2829547274609)
+[10:50:35] [Server thread/INFO]: xkoewasklx lost connection: Disconnected
+[10:50:35] [Server thread/INFO]: xkoewasklx left the game
+[12:01:17] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[12:01:19] [Server thread/INFO]: Stopping the server
+[12:01:20] [Server thread/INFO]: Stopping server
+[12:01:20] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.0
+[12:01:20] [Server thread/INFO]: [ExecutableItems] Disabling ExecutableItems v5.9.15
+[12:01:20] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.0.0-SNAPSHOT-b612
+[12:01:20] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.7+216b061
+[12:01:20] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[12:01:20] [Server thread/INFO]: [CraftEnhance] Disabling CraftEnhance v2.5.2
+[12:01:20] [Worker-Main-1/INFO]: Loaded 7 recipes
+[12:01:20] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.13+46576cc
+[12:01:20] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[12:01:20] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.58
+[12:01:20] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[12:01:20] [Server thread/INFO]: [LuckPerms] Closing storage...
+[12:01:20] [Server thread/INFO]: [LuckPerms] Goodbye!
+[12:01:20] [Server thread/INFO]: Saving players
+[12:01:21] [Server thread/INFO]: Saving worlds
+[12:01:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:01:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:01:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:01:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:01:21] [Server thread/INFO]: [ChunkHolderManager] Saved 3 block chunks, 97 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[12:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:01:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:01:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:01:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:01:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:01:21] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[12:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:01:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:01:21] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:01:21] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:01:21] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:01:21] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[12:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:01:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:01:21] [Server thread/INFO]: Flushing Chunk IO
+[12:01:21] [Server thread/INFO]: Closing Thread Pool
+[12:01:21] [Server thread/INFO]: Closing Server
